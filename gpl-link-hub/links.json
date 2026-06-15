@@ -1,16 +1,138 @@
 {
-  "updated_at": "2026-06-15T14:10:00+09:00",
-  "project": "GPL Link Hub V0",
+  "updated_at": "2026-06-15T15:45:00+09:00",
+  "project": "GPL Machine Ledger V0",
   "items": [
     {
       "unit_id": "GALAXY_5_01",
       "title": "GALAXY 5 01 scene renderer v10",
       "youtube_url": "https://youtu.be/7mmHearn3Ik",
-      "status": "distributed",
-      "kakao_room": "Japanese written-language study committee",
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
       "notes": "YouTube link verified and Kakao distribution confirmed by Ssong."
+    },
+    {
+      "unit_id": "GALAXY_5_02",
+      "title": "GALAXY 5 02 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_03",
+      "title": "GALAXY 5 03 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_04",
+      "title": "GALAXY 5 04 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_05",
+      "title": "GALAXY 5 05 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_06",
+      "title": "GALAXY 5 06 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_07",
+      "title": "GALAXY 5 07 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_08",
+      "title": "GALAXY 5 08 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_09",
+      "title": "GALAXY 5 09 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_10",
+      "title": "GALAXY 5 10 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_11",
+      "title": "GALAXY 5 11 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
+    },
+    {
+      "unit_id": "GALAXY_5_12",
+      "title": "GALAXY 5 12 scene renderer v10",
+      "youtube_url": null,
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "not_distributed",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "updated_at": "2026-06-14",
+      "verified": false,
+      "notes": "Batch upload completed; share link recovery needed before distribution."
     }
   ]
 }
