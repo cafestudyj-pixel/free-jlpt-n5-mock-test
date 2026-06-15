@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>GPL Link Hub V0</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #101112;
+      --panel: #181a1d;
+      --line: #2f343a;
+      --text: #f5f1e8;
+      --muted: #b8b0a0;
+      --gold: #e7c66a;
+      --green: #7ddc91;
+      --red: #ff8a80;
+    }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", "Noto Sans KR", "Yu Gothic", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    header {
+      padding: 22px 18px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #141619;
+    }
+    h1 {
+      margin: 0;
+      font-size: 22px;
+      color: var(--gold);
+    }
+    .sub {
+      margin-top: 6px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 18px;
+    }
+    .toolbar {
+      display: flex;
+      gap: 8px;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    button, a.button {
+      border: 1px solid var(--line);
+      background: #22262b;
+      color: var(--text);
+      padding: 8px 10px;
+      border-radius: 6px;
+      text-decoration: none;
+      cursor: pointer;
+      font-size: 13px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--panel);
+      border: 1px solid var(--line);
+    }
+    th, td {
+      padding: 12px 10px;
+      border-bottom: 1px solid var(--line);
+      text-align: left;
+      vertical-align: top;
+      font-size: 14px;
+    }
+    th {
+      color: var(--gold);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .status {
+      display: inline-block;
+      padding: 4px 8px;
+      border-radius: 999px;
+      border: 1px solid var(--line);
+      font-size: 12px;
+      white-space: nowrap;
+    }
+    .distributed { color: var(--green); border-color: #315d3d; }
+    .blocked, .needs_check { color: var(--red); border-color: #6b3833; }
+    .url {
+      color: #9cc7ff;
+      word-break: break-all;
+    }
+    .empty {
+      padding: 22px;
+      background: var(--panel);
+      border: 1px solid var(--line);
+      color: var(--muted);
+    }
+    @media (max-width: 720px) {
+      table, thead, tbody, tr, th, td { display: block; }
+      thead { display: none; }
+      tr { border-bottom: 1px solid var(--line); padding: 10px 0; }
+      td { border-bottom: 0; padding: 6px 10px; }
+      td::before {
+        content: attr(data-label);
+        display: block;
+        color: var(--gold);
+        font-size: 11px;
+        margin-bottom: 3px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>GPL Link Hub V0</h1>
+    <div class="sub">Canonical YouTube links and Kakao deployment status</div>
+  </header>
+  <main>
+    <div class="toolbar">
+      <div id="updated">Loading links.json...</div>
+      <button type="button" onclick="loadData()">Reload</button>
+    </div>
+    <div id="app" class="empty">Loading...</div>
+  </main>
+  <script>
+    const statusClass = (status) => String(status || '').replace(/[^a-z0-9_]/gi, '');
+
+    async function loadData() {
+      const app = document.getElementById('app');
+      const updated = document.getElementById('updated');
+      app.className = 'empty';
+      app.textContent = 'Loading...';
+      try {
+        const res = await fetch('./links.json?ts=' + Date.now());
+        if (!res.ok) throw new Error('links.json HTTP ' + res.status);
+        const data = await res.json();
+        updated.textContent = 'Updated: ' + (data.updated_at || 'unknown');
+        const items = Array.isArray(data.items) ? data.items : [];
+        if (!items.length) {
+          app.textContent = 'No GPL links registered.';
+          return;
+        }
+        app.className = '';
+        app.innerHTML = `
+          <table>
+            <thead>
+              <tr>
+                <th>Unit</th>
+                <th>Status</th>
+                <th>YouTube</th>
+                <th>Kakao</th>
+                <th>Note</th>
+              </tr>
+            </thead>
+            <tbody>
+              ${items.map(item => `
+                <tr>
+                  <td data-label="Unit"><strong>${item.unit_id || ''}</strong><br>${item.title || ''}</td>
+                  <td data-label="Status"><span class="status ${statusClass(item.status)}">${item.status || ''}</span></td>
+                  <td data-label="YouTube"><a class="url" href="${item.youtube_url || '#'}" target="_blank" rel="noreferrer">${item.youtube_url || ''}</a></td>
+                  <td data-label="Kakao">${item.kakao_room || ''}<br>${item.updated_at || ''}</td>
+                  <td data-label="Note">${item.notes || ''}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        `;
+      } catch (err) {
+        updated.textContent = 'Load failed';
+        app.className = 'empty';
+        app.textContent = err.message;
+      }
+    }
+
+    loadData();
+  </script>
+</body>
+</html>
