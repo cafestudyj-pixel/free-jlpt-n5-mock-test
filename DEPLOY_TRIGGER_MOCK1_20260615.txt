@@ -1,0 +1,5 @@
+Deploy trigger for Mock Test 1 public data release.
+
+Purpose: force Netlify to run a fresh production deploy after Mock Test 1 data file was added.
+Target public data file: /data/jlpt_n5_mock_1_20260612.json
+Date: 2026-06-15
