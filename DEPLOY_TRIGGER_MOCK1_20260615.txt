@@ -1,5 +1,7 @@
 Deploy trigger for Mock Test 1 public data release.
 
-Purpose: force Netlify to run a fresh production deploy after Mock Test 1 data file was added.
+Purpose: retry Netlify production deploy after earlier GitHub deploys were skipped by branch queue handling.
 Target public data file: /data/jlpt_n5_mock_1_20260612.json
 Date: 2026-06-15
+Retry timestamp KST: 2026-06-15T20:20:00+09:00
+Expected public verification: https://free-jlpt-n5-mock-test.netlify.app/data/jlpt_n5_mock_1_20260612.json
