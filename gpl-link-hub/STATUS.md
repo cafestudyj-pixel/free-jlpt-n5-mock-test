@@ -4,11 +4,10 @@ Created: 2026-06-15
 
 Current state:
 
-- Local static prototype: complete
+- Local machine ledger prototype: complete
 - JSON parse verification: pass
-- Local web server proof: pass at `http://127.0.0.1:8771`
 - GitHub remote: not connected in current workspace
-- Public deploy: pending repository selection
+- Public human dashboard: removed from GPL core
 - Saeko mailbox reply: prepared, but HTTP mailbox timed out at 2026-06-15 14:xx
 
 Current registered unit:
@@ -19,7 +18,7 @@ Current registered unit:
 
 Next action:
 
-Choose/create GitHub repository and publish this folder as a static GitHub Pages site.
+Use GitHub JSON files as the canonical machine ledger for GPL upload/distribution work.
 
 Mailbox note:
 

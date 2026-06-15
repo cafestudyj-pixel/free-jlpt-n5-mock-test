@@ -9,9 +9,7 @@
     "deploy_log.json",
     "status.json"
   ],
-  "optional_files": [
-    "index.html"
-  ],
+  "optional_files": [],
   "policy": {
     "netlify_required": false,
     "human_dashboard_required": false,
