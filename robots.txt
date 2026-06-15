@@ -1,0 +1,4 @@
+﻿User-agent: *
+Allow: /
+
+Sitemap: https://free-jlpt-n5-mock-test.netlify.app/sitemap.xml

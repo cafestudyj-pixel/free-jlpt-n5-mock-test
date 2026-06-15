@@ -1,0 +1,4 @@
+﻿# Netlify static deployment config
+
+[build]
+  publish = "."
