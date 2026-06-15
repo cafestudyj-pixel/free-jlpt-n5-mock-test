@@ -63,3 +63,5 @@ jobs:
           git add index.html
           git commit -m "Fix data paths for GitHub Pages"
           git push
+
+# trigger: 2026-06-15T21:48:00+09:00
