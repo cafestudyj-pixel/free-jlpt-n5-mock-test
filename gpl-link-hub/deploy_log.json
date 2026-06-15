@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-06-15T15:20:00+09:00",
+  "project": "GPL",
+  "purpose": "Machine-readable history of GPL upload/link verification/distribution events.",
+  "events": [
+    {
+      "event_id": "GPL_DEPLOY_20260615_001",
+      "unit_id": "GALAXY_5_01",
+      "event_type": "kakao_distribution",
+      "youtube_url": "https://youtu.be/7mmHearn3Ik",
+      "target": "kakao:japanese_written_language_study_committee",
+      "status": "confirmed_by_ssong",
+      "event_time": "2026-06-15",
+      "notes": "First machine-readable GPL deployment log entry."
+    }
+  ]
+}

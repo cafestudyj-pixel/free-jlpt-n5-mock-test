@@ -1,0 +1,17 @@
+{
+  "updated_at": "2026-06-15T15:20:00+09:00",
+  "project": "GPL",
+  "timezone": "Asia/Seoul",
+  "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
+  "items": [
+    {
+      "unit_id": "GALAXY_5_01",
+      "planned_date": "2026-06-15",
+      "youtube_url": "https://youtu.be/7mmHearn3Ik",
+      "target": "kakao:japanese_written_language_study_committee",
+      "status": "distributed",
+      "requires_ssong_action": false,
+      "notes": "Baseline verified entry after GPL Link Hub V0 creation."
+    }
+  ]
+}

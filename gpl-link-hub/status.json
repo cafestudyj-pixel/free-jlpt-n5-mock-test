@@ -1,0 +1,24 @@
+{
+  "updated_at": "2026-06-15T15:20:00+09:00",
+  "project": "GPL",
+  "current_operating_mode": "machine_first_deployment_ops",
+  "primary_goal": "Jiko uploads and distributes today's GPL content cleanly without unnecessary Ssong intervention.",
+  "canonical_files": [
+    "links.json",
+    "schedule.json",
+    "deploy_log.json",
+    "status.json"
+  ],
+  "optional_files": [
+    "index.html"
+  ],
+  "policy": {
+    "netlify_required": false,
+    "human_dashboard_required": false,
+    "github_json_required": true,
+    "large_media_in_git": false,
+    "jiko_reads_machine_ledger": true,
+    "ssong_asks_jiko_instead_of_reading_dashboard": true
+  },
+  "next_action": "Use schedule.json and links.json as the canonical source before Kakao distribution."
+}

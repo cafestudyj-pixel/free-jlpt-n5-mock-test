@@ -23,6 +23,14 @@ GitHub should not hold:
 - wav
 - render intermediates
 
+Core machine files:
+
+- `links.json`: canonical YouTube link/status table
+- `schedule.json`: planned GPL upload/distribution queue
+- `deploy_log.json`: completed/blocked deployment history
+- `status.json`: current operating policy
+- `index.html`: optional human viewer only
+
 First proof loop:
 
 ```text
@@ -32,3 +40,6 @@ YouTube link
 -> future GitHub Pages / Netlify deployment
 ```
 
+Meta rule:
+
+Netlify is not a core GPL requirement. The core requirement is a machine-readable GitHub ledger that Jiko can read before upload/distribution work.
