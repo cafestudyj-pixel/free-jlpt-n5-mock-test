@@ -1,116 +1,116 @@
-{
-  "updated_at": "2026-06-15T15:45:00+09:00",
-  "project": "GPL",
-  "timezone": "Asia/Seoul",
-  "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
-  "items": [
-    {
-      "unit_id": "GALAXY_5_01",
-      "planned_date": "2026-06-15",
-      "youtube_url": "https://youtu.be/7mmHearn3Ik",
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "distributed",
-      "requires_ssong_action": false,
-      "notes": "Baseline verified entry after GPL Machine Ledger V0 creation."
-    },
-    {
-      "unit_id": "GALAXY_5_02",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_03",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_04",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_05",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_06",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_07",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_08",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_09",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_10",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_11",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    },
-    {
-      "unit_id": "GALAXY_5_12",
-      "planned_date": null,
-      "youtube_url": null,
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "link_recovery_needed",
-      "requires_ssong_action": false,
-      "notes": "Recover YouTube share link from Studio before distribution."
-    }
-  ]
+﻿{
+    "updated_at":  "2026-06-15T17:45:00+09:00",
+    "project":  "GPL",
+    "timezone":  "Asia/Seoul",
+    "purpose":  "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
+    "items":  [
+                  {
+                      "unit_id":  "GALAXY_5_01",
+                      "planned_date":  "2026-06-15",
+                      "youtube_url":  "https://youtu.be/7mmHearn3Ik",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "distributed",
+                      "requires_ssong_action":  false,
+                      "notes":  "Baseline verified entry after GPL Machine Ledger V0 creation."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_02",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/4ETLwGrVsOg",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_03",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/JPp54ffBAjg",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_04",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/w0FAR4hG-1Y",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_05",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/LdB1WobfzHA",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_06",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/gcvroiHczlo",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_07",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/GNlxvkihzAQ",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_08",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/Hsm3qT7LSdo",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_09",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/0egfByakqqk",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_10",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/E66D3nGyCoY",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_11",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/CvL98-Q5HqU",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  },
+                  {
+                      "unit_id":  "GALAXY_5_12",
+                      "planned_date":  null,
+                      "youtube_url":  "https://youtu.be/pdh50SVlJJg",
+                      "target":  "kakao:japanese_written_language_study_committee",
+                      "status":  "ready_for_distribution",
+                      "requires_ssong_action":  false,
+                      "notes":  "Link recovered; ready for scheduled Kakao distribution."
+                  }
+              ]
 }
