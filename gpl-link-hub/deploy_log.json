@@ -1,17 +1,27 @@
-{
-  "updated_at": "2026-06-15T15:20:00+09:00",
-  "project": "GPL",
-  "purpose": "Machine-readable history of GPL upload/link verification/distribution events.",
-  "events": [
-    {
-      "event_id": "GPL_DEPLOY_20260615_001",
-      "unit_id": "GALAXY_5_01",
-      "event_type": "kakao_distribution",
-      "youtube_url": "https://youtu.be/7mmHearn3Ik",
-      "target": "kakao:japanese_written_language_study_committee",
-      "status": "confirmed_by_ssong",
-      "event_time": "2026-06-15",
-      "notes": "First machine-readable GPL deployment log entry."
-    }
-  ]
+﻿{
+    "updated_at":  "2026-06-16T12:02:00+09:00",
+    "project":  "GPL",
+    "purpose":  "Machine-readable history of GPL upload/link verification/distribution events.",
+    "events":  [
+                   {
+                       "event_id":  "GPL_DEPLOY_20260615_001",
+                       "unit_id":  "GALAXY_5_01",
+                       "event_type":  "kakao_distribution",
+                       "youtube_url":  "https://youtu.be/7mmHearn3Ik",
+                       "target":  "kakao:japanese_written_language_study_committee",
+                       "status":  "confirmed_by_ssong",
+                       "event_time":  "2026-06-15",
+                       "notes":  "First machine-readable GPL deployment log entry."
+                   },
+                   {
+                       "event_id":  "GPL_DEPLOY_20260616_502",
+                       "unit_id":  "GALAXY_5_02",
+                       "event_type":  "kakao_distribution",
+                       "youtube_url":  "https://youtu.be/4ETLwGrVsOg",
+                       "target":  "kakao:japanese_written_language_study_committee",
+                       "status":  "confirmed_visual_by_jiko",
+                       "event_time":  "2026-06-16T11:53:00+09:00",
+                       "notes":  "Kakao sent bubble/YouTube preview card visually confirmed; duplicate noon heartbeat skipped."
+                   }
+               ]
 }
