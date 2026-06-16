@@ -3,55 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Free JLPT N5 mock test practice site for independent learners." />
-  <title>Free JLPT N5 Mock Test Series</title>
-  <style>
-    :root{color-scheme:light;--ink:#1d2329;--muted:#66717d;--line:#dde3e8;--paper:#f6f8f7;--surface:#fff;--green:#1f7a5a;--mint:#dff2ea;--navy:#22324a;--red:#a74340;font-family:Inter,"Noto Sans JP","Noto Sans KR",system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink)}button{font:inherit;cursor:pointer;border:0}button:disabled{cursor:not-allowed;opacity:.55}.shell{width:min(1120px,calc(100vw - 32px));margin:0 auto;padding:28px 0}.hero{display:grid;grid-template-columns:minmax(0,1fr)320px;gap:28px;align-items:center;min-height:330px}.eyebrow{margin:0 0 10px;color:var(--green);font-size:.78rem;font-weight:900;text-transform:uppercase}.hero h1{margin:0 0 16px;font-size:clamp(2.2rem,6vw,4.8rem);line-height:1.04}.lead{max-width:720px;color:var(--muted);font-size:1.08rem;line-height:1.6}.card,.panel,.question-card,.side-panel,.schedule-card{border:1px solid var(--line);border-radius:8px;background:var(--surface);box-shadow:0 14px 32px rgba(31,43,53,.08)}.card{padding:24px}.big-number{display:block;color:var(--green);font-size:4.2rem;font-weight:950;line-height:1}.primary,.secondary,.mini{min-height:42px;border-radius:8px;padding:0 16px;font-weight:900}.primary{background:var(--green);color:white}.secondary,.mini{border:1px solid var(--line);background:white;color:var(--ink)}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.schedule{margin-top:22px}.schedule h2{margin:0 0 14px}.schedule-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}.schedule-card{display:grid;align-content:space-between;gap:16px;min-height:168px;padding:18px}.schedule-card.open{border-color:rgba(31,122,90,.38);background:#f7fffb}.pill{display:inline-flex;width:fit-content;border-radius:999px;padding:5px 9px;background:var(--mint);color:var(--green);font-size:.78rem;font-weight:900}.state{margin-left:5px;background:var(--green);color:white}.schedule-card h3{margin:10px 0 6px}.schedule-card p,.small{margin:0;color:var(--muted);line-height:1.5}.notice{margin-top:18px;padding:16px 18px}.notice p{margin:0;color:var(--muted);line-height:1.5}.test-head{display:flex;justify-content:space-between;gap:16px;align-items:end}.test-head h1{margin:0;font-size:clamp(2rem,5vw,4rem)}.counter{min-width:90px;border-radius:8px;background:var(--navy);color:#fff;padding:12px;text-align:center;font-weight:950}.progress{height:10px;margin:18px 0;border-radius:999px;overflow:hidden;background:var(--mint)}.progress span{display:block;height:100%;background:var(--green)}.layout{display:grid;grid-template-columns:minmax(0,1fr)310px;gap:16px}.question-card,.side-panel,.panel{padding:22px}.question-card h2{font-size:clamp(1.45rem,4vw,2.35rem);line-height:1.42;white-space:pre-wrap;word-break:normal}.choices{display:grid;gap:10px}.choice{display:grid;grid-template-columns:44px minmax(0,1fr);gap:12px;align-items:center;min-height:62px;border:1px solid var(--line);border-radius:8px;background:#fff;padding:10px;text-align:left}.choice span{width:38px;aspect-ratio:1;border-radius:50%;display:grid;place-items:center;background:var(--mint);color:var(--green);font-weight:950}.choice strong{overflow-wrap:anywhere}.choice.selected{border-color:var(--green);background:#f0fbf5}.nav{display:flex;justify-content:flex-end;flex-wrap:wrap;gap:10px;margin-top:16px}.result-grid{display:grid;grid-template-columns:2fr 1fr;gap:16px}.review-item{border-top:1px solid var(--line);padding:12px 0}.review-item p{margin:6px 0;line-height:1.5}.error{color:var(--red);font-weight:900}@media(max-width:900px){.hero,.layout,.result-grid{grid-template-columns:1fr}.schedule-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:560px){.shell{width:min(100vw - 28px,1120px);padding:16px 0}.schedule-grid{grid-template-columns:1fr}.hero h1{font-size:1.85rem}.lead{font-size:.95rem}.choice{grid-template-columns:38px minmax(0,1fr)}}
-  </style>
+  <meta name="description" content="Free JLPT N5 Mock Test 1. Practice vocabulary, grammar, and reading online with instant answer review." />
+  <title>Free JLPT N5 Mock Test 1</title>
+  <style>body{margin:0;font-family:Arial,'Noto Sans JP',sans-serif;background:#f6f8f7;color:#111}.loading{max-width:720px;margin:12vh auto;padding:24px}.loading h1{font-size:2rem}.loading p{line-height:1.6;color:#555}</style>
 </head>
 <body>
-  <div id="app"><main class="shell"><section class="hero"><div><p class="eyebrow">JLPT N5 Practice</p><h1>Free JLPT N5 Mock Test Series</h1><p class="lead">Loading practice data...</p></div></section></main></div>
-  <script type="module">
-    const tests = [
-      { id:'warmup', label:'Warm-up Test', open:'2026-06-12', copy:'Open now - 5-question preview', available:true, kind:'warmup' },
-      { id:'n5_mock_test_1_20260612', label:'Mock Test 1', open:'2026-06-16', copy:'Preparing for release', available:false, kind:'mock1' },
-      { id:'n5_mock_test_2_20260615', label:'Mock Test 2', open:'2026-06-19', copy:'Opens Fri, Jun 19', available:false },
-      { id:'n5_mock_test_3_20260619', label:'Mock Test 3', open:'2026-06-23', copy:'Opens Tue, Jun 23', available:false },
-      { id:'n5_mock_test_4_20260622', label:'Mock Test 4', open:'2026-06-26', copy:'Opens Fri, Jun 26', available:false },
-      { id:'n5_mock_test_5_20260630', label:'Mock Test 5', open:'2026-06-30', copy:'Opens Tue, Jun 30', available:false },
-      { id:'n5_mock_test_6_20260629', label:'Mock Test 6', open:'2026-07-03', copy:'Opens Fri, Jul 3', available:false },
-      { id:'n5_final_check_20260703', label:'Mock Test 7 / Final Check', open:'2026-07-03', copy:'Opens Fri, Jul 3', available:false }
-    ];
-    const warmup = [
-      { question_id:'warmup_001', section:'vocabulary', prompt:'「あめ」の意味としていちばん近いものを選びなさい。', choices:[{id:'A',text:'rain'},{id:'B',text:'book'},{id:'C',text:'station'},{id:'D',text:'money'}], correct_choice_id:'A', explanation:'あめ means rain.', primary_tag:'vocabulary' },
-      { question_id:'warmup_002', section:'grammar', prompt:'わたしは パン（　）食べます。', choices:[{id:'A',text:'を'},{id:'B',text:'に'},{id:'C',text:'で'},{id:'D',text:'へ'}], correct_choice_id:'A', explanation:'Use を for the direct object of 食べます.', primary_tag:'particle' },
-      { question_id:'warmup_003', section:'vocabulary', prompt:'「いきます」の意味としていちばん近いものを選びなさい。', choices:[{id:'A',text:'to eat'},{id:'B',text:'to go'},{id:'C',text:'to read'},{id:'D',text:'to buy'}], correct_choice_id:'B', explanation:'いきます means to go.', primary_tag:'verb' },
-      { question_id:'warmup_004', section:'grammar', prompt:'きのう、ほんを（　）。', choices:[{id:'A',text:'よみます'},{id:'B',text:'よみました'},{id:'C',text:'よみません'},{id:'D',text:'よみませんか'}], correct_choice_id:'B', explanation:'きのう means yesterday, so the past polite form よみました is natural.', primary_tag:'verb_form' },
-      { question_id:'warmup_005', section:'reading', prompt:'Passage: けさ、田中さんは コーヒーを 飲みました。\nQuestion: 田中さんは 何を 飲みましたか。', choices:[{id:'A',text:'みず'},{id:'B',text:'コーヒー'},{id:'C',text:'おちゃ'},{id:'D',text:'ジュース'}], correct_choice_id:'B', explanation:'The passage says コーヒーを 飲みました.', primary_tag:'reading' }
-    ];
-    const app = document.querySelector('#app');
-    const state = { questions:[], index:0, answers:{}, active:null };
-    const esc = v => String(v ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
-    const today = () => { const v = new URLSearchParams(location.search).get('today'); return /^\d{4}-\d{2}-\d{2}$/.test(v || '') ? v : new Date().toISOString().slice(0,10); };
-    const fmt = d => new Date(`${d}T00:00:00`).toLocaleDateString('en-US',{month:'short',day:'numeric'});
-    const isOpen = t => t.available && t.open <= today();
-    function renderHome(){
-      const first = tests.find(isOpen);
-      app.innerHTML = `<main class="shell"><section class="hero"><div><p class="eyebrow">JLPT N5 Practice</p><h1>Free JLPT N5 Mock Test Series</h1><p class="lead">Warm-up is open. Full mock tests will be released only after final review is complete. No login, no account, no ranking.</p><div class="actions"><button class="primary" data-start="${esc(first?.id || '')}" ${first?'':'disabled'}>Start now</button></div></div><aside class="card"><span class="big-number">5</span><strong>Warm-up preview</strong><p class="small">Mock Test 1 is not public yet. It will open after release review.</p></aside></section><section class="schedule"><p class="eyebrow">Schedule</p><h2>Release schedule</h2><div class="schedule-grid">${tests.map(t=>card(t)).join('')}</div></section><section class="notice card"><strong>Independent practice site</strong><p>This is an independent practice site for JLPT N5 learners. It is not an official JLPT test or score report.</p></section></main>`;
-    }
-    function card(t){ const open = isOpen(t); return `<article class="schedule-card ${open?'open':''}"><div><span class="pill">${fmt(t.open)}</span>${open?'<span class="pill state">Open now</span>':''}<h3>${esc(t.label)}</h3><p>${esc(t.copy)}</p></div><button class="mini" data-start="${esc(t.id)}" ${open?'':'disabled'}>${open?'Start':'Locked'}</button></article>`; }
-    async function start(id){ state.active = id; state.questions = warmup; state.index = 0; state.answers = {}; renderQuestion(); }
-    function renderQuestion(){
-      const q = state.questions[state.index]; const picked = state.answers[q.question_id]; const progress = Math.round(((state.index+1)/state.questions.length)*100);
-      app.innerHTML = `<main class="shell"><header class="test-head"><div><p class="eyebrow">Warm-up Test / ${esc(q.section)}</p><h1>Question ${state.index+1}</h1></div><div class="counter">${Object.keys(state.answers).length}/${state.questions.length}</div></header><div class="progress"><span style="width:${progress}%"></span></div><section class="layout"><article class="question-card"><p class="small">${esc((q.primary_tag||q.section||'practice').replaceAll('_',' '))}</p><h2 lang="ja">${esc(q.prompt)}</h2><div class="choices">${q.choices.map(c=>`<button class="choice ${picked===c.id?'selected':''}" data-choice="${esc(c.id)}"><span>${esc(c.id)}</span><strong lang="ja">${esc(c.text)}</strong></button>`).join('')}</div></article><aside class="side-panel"><h2>Answer first</h2><p class="small">Review and explanations appear after you finish. Your answers stay in this browser.</p><p class="small">Listening practice is not included in this release. Official JLPT sample resources should be used for listening until our final-check pilot is ready.</p></aside></section><footer class="nav"><button class="secondary" data-prev ${state.index===0?'disabled':''}>Previous</button><button class="secondary" data-next ${state.index===state.questions.length-1?'disabled':''}>Next</button><button class="primary" data-submit ${Object.keys(state.answers).length===state.questions.length?'':'disabled'}>Show Score</button></footer></main>`;
-    }
-    function renderResult(){
-      const rows = state.questions.map(q=>{ const a=state.answers[q.question_id]; return {q,a,ok:a===q.correct_choice_id}; }); const correct = rows.filter(r=>r.ok).length; const missed = rows.filter(r=>!r.ok);
-      app.innerHTML = `<main class="shell"><section class="hero"><div><p class="eyebrow">Warm-up Test</p><h1>Score ${correct}/${state.questions.length}</h1><p class="lead">This score is practice feedback only. Review missed items before the next scheduled test.</p><div class="actions"><button class="secondary" data-home>Back to schedule</button></div></div><aside class="card"><span class="big-number">${Math.round(correct/state.questions.length*100)}%</span><strong>Practice score</strong><p class="small">Independent practice result.</p></aside></section><section class="result-grid"><article class="panel"><h2>Mistake Review</h2>${missed.length?missed.map(review).join(''):'<p>No missed questions in this attempt.</p>'}</article><article class="panel"><h2>Next step</h2><p>Mock Test 1 will open after final review is complete.</p></article></section></main>`;
-    }
-    function review(r){ const right = r.q.choices.find(c=>c.id===r.q.correct_choice_id); const picked = r.q.choices.find(c=>c.id===r.a); return `<div class="review-item"><strong>${esc(r.q.section)} / ${esc(r.q.question_id)}</strong><p lang="ja">${esc(r.q.prompt)}</p><p>Your answer: ${esc(r.a || '-')} ${esc(picked?.text || '')}</p><p>Correct answer: ${esc(r.q.correct_choice_id)} ${esc(right?.text || '')}</p><p>${esc(r.q.explanation || '')}</p></div>`; }
-    app.addEventListener('click',e=>{ const startId=e.target.closest('[data-start]')?.dataset.start; if(startId) start(startId); if(e.target.closest('[data-choice]')){ state.answers[state.questions[state.index].question_id]=e.target.closest('[data-choice]').dataset.choice; renderQuestion(); } if(e.target.closest('[data-prev]')&&state.index>0){state.index--;renderQuestion();} if(e.target.closest('[data-next]')&&state.index<state.questions.length-1){state.index++;renderQuestion();} if(e.target.closest('[data-submit]')) renderResult(); if(e.target.closest('[data-home]')) renderHome(); });
-    renderHome();
+  <main class="loading"><h1>Free JLPT N5 Mock Test 1</h1><p>Loading the exam paper...</p></main>
+  <script>
+    const parts = Array.from({length:19}, (_, i) => `./mock-test-1-chunks/part-${String(i+1).padStart(2,'0')}.txt`);
+    Promise.all(parts.map((url) => fetch(url, {cache:'no-store'}).then((res) => {
+      if (!res.ok) throw new Error(`${url} ${res.status}`);
+      return res.text();
+    }))).then((texts) => {
+      document.open();
+      document.write(texts.join(''));
+      document.close();
+    }).catch((err) => {
+      document.body.innerHTML = `<main class="loading"><h1>Could not load Mock Test 1</h1><p>${String(err.message || err)}</p></main>`;
+      console.error(err);
+    });
   </script>
 </body>
 </html>
