@@ -1,0 +1,342 @@
+{
+  "payload_id": "N5_MOCK_TEST_1_PUBLIC_ANSWER_REVIEW_PAYLOAD_20260617",
+  "target_test_id": "mock_test_1_no_listening",
+  "item_count": 67,
+  "public_answer_review_items": [
+    {
+      "question_id": "MT1_V01",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「雨」 in this sentence is 「あめ」."
+    },
+    {
+      "question_id": "MT1_V02",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「本」 in this sentence is 「ほん」."
+    },
+    {
+      "question_id": "MT1_V03",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「前」 in this sentence is 「まえ」."
+    },
+    {
+      "question_id": "MT1_V04",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「空」 in this sentence is 「そら」."
+    },
+    {
+      "question_id": "MT1_V05",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「早く」 in this sentence is 「はやく」."
+    },
+    {
+      "question_id": "MT1_V06",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「近く」 in this sentence is 「ちかく」."
+    },
+    {
+      "question_id": "MT1_V07",
+      "correct_choice_id": "C",
+      "public_explanation": "The correct reading of 「山」 in this sentence is 「やま」."
+    },
+    {
+      "question_id": "MT1_V08",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「川」 in this sentence is 「かわ」."
+    },
+    {
+      "question_id": "MT1_V09",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「電車」 in this sentence is 「でんしゃ」."
+    },
+    {
+      "question_id": "MT1_V10",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「三人」 in this sentence is 「さんにん」."
+    },
+    {
+      "question_id": "MT1_V11",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「町」 in this sentence is 「まち」."
+    },
+    {
+      "question_id": "MT1_V12",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of 「新しい」 in this sentence is 「あたらしい」."
+    },
+    {
+      "question_id": "MT1_V13",
+      "correct_choice_id": "B",
+      "public_explanation": "The correct written form for 「がっこう」 is 「学校」."
+    },
+    {
+      "question_id": "MT1_V14",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「えいが」 is 「映画」."
+    },
+    {
+      "question_id": "MT1_V15",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「あさ」 is 「朝」."
+    },
+    {
+      "question_id": "MT1_V16",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「かいました」 is 「買いました」."
+    },
+    {
+      "question_id": "MT1_V17",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「にほんご」 is 「日本語」."
+    },
+    {
+      "question_id": "MT1_V18",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「かいて」 is 「書いて」."
+    },
+    {
+      "question_id": "MT1_V19",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「げんき」 is 「元気」."
+    },
+    {
+      "question_id": "MT1_V20",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for 「らいしゅう」 is 「来週」."
+    },
+    {
+      "question_id": "MT1_V21",
+      "correct_choice_id": "C",
+      "public_explanation": "「のみます」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V22",
+      "correct_choice_id": "A",
+      "public_explanation": "「あけて」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V23",
+      "correct_choice_id": "A",
+      "public_explanation": "「ちかい」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V24",
+      "correct_choice_id": "B",
+      "public_explanation": "「のみます」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V25",
+      "correct_choice_id": "A",
+      "public_explanation": "「べんきょう」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V26",
+      "correct_choice_id": "A",
+      "public_explanation": "「もって」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V27",
+      "correct_choice_id": "B",
+      "public_explanation": "「つけ」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V28",
+      "correct_choice_id": "A",
+      "public_explanation": "「やすみます」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V29",
+      "correct_choice_id": "A",
+      "public_explanation": "「おいしい」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V30",
+      "correct_choice_id": "A",
+      "public_explanation": "「わかりません」 best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V31",
+      "correct_choice_id": "A",
+      "public_explanation": "Choice A keeps the same basic meaning as the prompt: 「これは ちちと ははの しゃしんです。」."
+    },
+    {
+      "question_id": "MT1_V32",
+      "correct_choice_id": "C",
+      "public_explanation": "Choice C keeps the same basic meaning as the prompt: 「この みちは せまくありません。」."
+    },
+    {
+      "question_id": "MT1_V33",
+      "correct_choice_id": "A",
+      "public_explanation": "Choice A keeps the same basic meaning as the prompt: 「ふくを あらいました。」."
+    },
+    {
+      "question_id": "MT1_V34",
+      "correct_choice_id": "A",
+      "public_explanation": "Choice A keeps the same basic meaning as the prompt: 「森さんは リーさんに ペンを もらいました。」."
+    },
+    {
+      "question_id": "MT1_V35",
+      "correct_choice_id": "D",
+      "public_explanation": "Choice D keeps the same basic meaning as the prompt: 「この へやは うるさく ありません。」."
+    },
+    {
+      "question_id": "MT1_G01",
+      "correct_choice_id": "D",
+      "public_explanation": "「で」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G02",
+      "correct_choice_id": "A",
+      "public_explanation": "「に」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G03",
+      "correct_choice_id": "B",
+      "public_explanation": "「で」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G04",
+      "correct_choice_id": "A",
+      "public_explanation": "「と」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G05",
+      "correct_choice_id": "B",
+      "public_explanation": "「が」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G06",
+      "correct_choice_id": "C",
+      "public_explanation": "「に」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G07",
+      "correct_choice_id": "A",
+      "public_explanation": "「の」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G08",
+      "correct_choice_id": "B",
+      "public_explanation": "「に」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G09",
+      "correct_choice_id": "C",
+      "public_explanation": "「で」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G10",
+      "correct_choice_id": "B",
+      "public_explanation": "「ありませんでした」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G11",
+      "correct_choice_id": "A",
+      "public_explanation": "「言って」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G12",
+      "correct_choice_id": "A",
+      "public_explanation": "「行きたいです」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G13",
+      "correct_choice_id": "B",
+      "public_explanation": "「読み」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G14",
+      "correct_choice_id": "A",
+      "public_explanation": "「おいしい」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G15",
+      "correct_choice_id": "A",
+      "public_explanation": "「して」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G16",
+      "correct_choice_id": "A",
+      "public_explanation": "「行かないで」 is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G17",
+      "correct_choice_id": "D",
+      "public_explanation": "At the ★ position, the correct choice is 「だれ」."
+    },
+    {
+      "question_id": "MT1_G18",
+      "correct_choice_id": "B",
+      "public_explanation": "At the ★ position, the correct choice is 「と」."
+    },
+    {
+      "question_id": "MT1_G19",
+      "correct_choice_id": "B",
+      "public_explanation": "At the ★ position, the correct choice is 「ある」."
+    },
+    {
+      "question_id": "MT1_G20",
+      "correct_choice_id": "C",
+      "public_explanation": "At the ★ position, the correct choice is 「は」."
+    },
+    {
+      "question_id": "MT1_G21",
+      "correct_choice_id": "A",
+      "public_explanation": "At the ★ position, the correct choice is 「もらった」."
+    },
+    {
+      "question_id": "MT1_G22",
+      "correct_choice_id": "A",
+      "public_explanation": "「だから」 connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G23",
+      "correct_choice_id": "A",
+      "public_explanation": "「どういたしまして」 connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G24",
+      "correct_choice_id": "A",
+      "public_explanation": "「でも」 connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G25",
+      "correct_choice_id": "A",
+      "public_explanation": "「食べる」 connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G26",
+      "correct_choice_id": "A",
+      "public_explanation": "「だから」 connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_R27",
+      "correct_choice_id": "C",
+      "public_explanation": "The passage supports choice C: 「何も 食べませんでした。」."
+    },
+    {
+      "question_id": "MT1_R28",
+      "correct_choice_id": "A",
+      "public_explanation": "The passage supports choice A: 「今日 クラスは ありません。宿題は 来週 出して ください。」."
+    },
+    {
+      "question_id": "MT1_R29",
+      "correct_choice_id": "B",
+      "public_explanation": "The passage supports choice B: 「にもつを 受け取ります。」."
+    },
+    {
+      "question_id": "MT1_R30",
+      "correct_choice_id": "B",
+      "public_explanation": "The passage supports choice B: 「駅の 近くの 店で 買いました。」."
+    },
+    {
+      "question_id": "MT1_R31",
+      "correct_choice_id": "B",
+      "public_explanation": "The passage supports choice B: 「朝は 雨で、昼から 晴れました。」."
+    },
+    {
+      "question_id": "MT1_R32",
+      "correct_choice_id": "D",
+      "public_explanation": "The passage supports choice D: 「4」."
+    }
+  ]
+}
