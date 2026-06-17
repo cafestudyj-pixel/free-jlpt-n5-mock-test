@@ -1,0 +1,32 @@
+﻿e-text">あけて</span></label><label class="choice"><input type="radio" name="MT1_V26" value="C"><span class="mark">3</span><span class="choice-text">よんで</span></label><label class="choice"><input type="radio" name="MT1_V26" value="D"><span class="mark">4</span><span class="choice-text">つけて</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">27</div>
+      <div class="qbody">
+        <div class="stem">この へやは くらいです。でんきを（　）ましょう。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V27" value="A"><span class="mark">1</span><span class="choice-text">けし</span></label><label class="choice"><input type="radio" name="MT1_V27" value="B"><span class="mark">2</span><span class="choice-text">つけ</span></label><label class="choice"><input type="radio" name="MT1_V27" value="C"><span class="mark">3</span><span class="choice-text">あけ</span></label><label class="choice"><input type="radio" name="MT1_V27" value="D"><span class="mark">4</span><span class="choice-text">しめ</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">28</div>
+      <div class="qbody">
+        <div class="stem">山田さんは びょうきですから、きょうは 学校を（　）。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V28" value="A"><span class="mark">1</span><span class="choice-text">やすみます</span></label><label class="choice"><input type="radio" name="MT1_V28" value="B"><span class="mark">2</span><span class="choice-text">あそびます</span></label><label class="choice"><input type="radio" name="MT1_V28" value="C"><span class="mark">3</span><span class="choice-text">はしります</span></label><label class="choice"><input type="radio" name="MT1_V28" value="D"><span class="mark">4</span><span class="choice-text">つくります</span></label></div>
+      </div>
+    </article>
+  </section><section class="page continuation" id="section-vocabulary_context_fit-p2">
+    <div class="section-title">文字・語彙</div>
+    
+    <article class="q">
+      <div class="qnum">29</div>
+      <div class="qbody">
+        <div class="stem">この ケーキは とても（　）です。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V29" value="A"><span class="mark">1</span><span class="choice-text">おいしい</span></label><label class="choice"><input type="radio" name="MT1_V29" value="B"><span class="mark">2</span><span class="choice-text">さむい</span></label><label class="choice"><input type="radio" name="MT1_V29" value="C"><span class="mark">3</span><span class="choice-text">ひくい</span></label><label class="choice"><input type="radio" name="MT1_V29" value="D"><span class="mark">4</span><span class="choice-text">あおい</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">30</div>
+      <div class="qbody">
+        <div class="stem">じしょを わすれましたから、ことばの いみが（　）。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V30" value="A"><span class="mark">1</span><span class="choice-text">わかりません</span></label><label class="choice"><input type="radio" name="MT1_V30" value="B"><span class="mark">2</span><span class="choice-text">あけません</span></label><label class="choice"><input type="radio" name="MT1_V30" value="C"><span class="mark">3</span><span class="choice-text">かかりません</span></label><label class="choice"><input type="radio" name="MT1_V30" value="D"><span class="mark">4</span><span class="choice-text">つきません</span></label></div>
+      </div>
+    </article>
+  </s

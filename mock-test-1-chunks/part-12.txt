@@ -1,0 +1,33 @@
+﻿<article class="q">
+      <div class="qnum">44</div>
+      <div class="qbody">
+        <div class="stem">この りんごは 三つ（　）300円です。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G09" value="A"><span class="mark">1</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G09" value="B"><span class="mark">2</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G09" value="C"><span class="mark">3</span><span class="choice-text">で</span></label><label class="choice"><input type="radio" name="MT1_G09" value="D"><span class="mark">4</span><span class="choice-text">が</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">45</div>
+      <div class="qbody">
+        <div class="stem">きのうは あまり さむく（　）。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G10" value="A"><span class="mark">1</span><span class="choice-text">ないです</span></label><label class="choice"><input type="radio" name="MT1_G10" value="B"><span class="mark">2</span><span class="choice-text">ありませんでした</span></label><label class="choice"><input type="radio" name="MT1_G10" value="C"><span class="mark">3</span><span class="choice-text">ありません</span></label><label class="choice"><input type="radio" name="MT1_G10" value="D"><span class="mark">4</span><span class="choice-text">ないでした</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">46</div>
+      <div class="qbody">
+        <div class="stem">すみません、もう 一ど（　）ください。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G11" value="A"><span class="mark">1</span><span class="choice-text">言って</span></label><label class="choice"><input type="radio" name="MT1_G11" value="B"><span class="mark">2</span><span class="choice-text">言います</span></label><label class="choice"><input type="radio" name="MT1_G11" value="C"><span class="mark">3</span><span class="choice-text">言った</span></label><label class="choice"><input type="radio" name="MT1_G11" value="D"><span class="mark">4</span><span class="choice-text">言いません</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">47</div>
+      <div class="qbody">
+        <div class="stem">A「日よう日に うちへ 来ませんか。」B「はい、（　）。」</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G12" value="A"><span class="mark">1</span><span class="choice-text">行きたいです</span></label><label class="choice"><input type="radio" name="MT1_G12" value="B"><span class="mark">2</span><span class="choice-text">行きませんでした</span></label><label class="choice"><input type="radio" name="MT1_G12" value="C"><span class="mark">3</span><span class="choice-text">行きません</span></label><label class="choice"><input type="radio" name="MT1_G12" value="D"><span class="mark">4</span><span class="choice-text">行って います</span></label></div>
+      </div>
+    </article>
+  </section><section class="page continuation" id="section-grammar_local_function_selection-p3">
+    <div class="section-title">文法</div>
+    
+    <article class="q">
+      <div class="qnum">48</div>
+      <div class="qbody">
+        <div class="stem">父は 新聞を（　）ながら コーヒーを 飲みます。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G13" value="A"><span class="mark">1</span><span class="choice-text">読む</span></label><label class="choice"><input type="radio

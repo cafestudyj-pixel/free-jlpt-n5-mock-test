@@ -1,0 +1,31 @@
+﻿ut type="radio" name="MT1_G04" value="B"><span class="mark">2</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G04" value="C"><span class="mark">3</span><span class="choice-text">が</span></label><label class="choice"><input type="radio" name="MT1_G04" value="D"><span class="mark">4</span><span class="choice-text">に</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">40</div>
+      <div class="qbody">
+        <div class="stem">わたしは コーヒー（　）すきです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G05" value="A"><span class="mark">1</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G05" value="B"><span class="mark">2</span><span class="choice-text">が</span></label><label class="choice"><input type="radio" name="MT1_G05" value="C"><span class="mark">3</span><span class="choice-text">で</span></label><label class="choice"><input type="radio" name="MT1_G05" value="D"><span class="mark">4</span><span class="choice-text">に</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">41</div>
+      <div class="qbody">
+        <div class="stem">あした 先生（　）会います。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G06" value="A"><span class="mark">1</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G06" value="B"><span class="mark">2</span><span class="choice-text">で</span></label><label class="choice"><input type="radio" name="MT1_G06" value="C"><span class="mark">3</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G06" value="D"><span class="mark">4</span><span class="choice-text">が</span></label></div>
+      </div>
+    </article>
+  </section><section class="page continuation" id="section-grammar_local_function_selection-p2">
+    <div class="section-title">文法</div>
+    
+    <article class="q">
+      <div class="qnum">42</div>
+      <div class="qbody">
+        <div class="stem">これは 山田さん（　）かばんです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G07" value="A"><span class="mark">1</span><span class="choice-text">の</span></label><label class="choice"><input type="radio" name="MT1_G07" value="B"><span class="mark">2</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G07" value="C"><span class="mark">3</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G07" value="D"><span class="mark">4</span><span class="choice-text">で</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">43</div>
+      <div class="qbody">
+        <div class="stem">毎日 7時（　）起きます。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G08" value="A"><span class="mark">1</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G08" value="B"><span class="mark">2</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G08" value="C"><span class="mark">3</span><span class="choice-text">で</span></label><label class="choice"><input type="radio" name="MT1_G08" value="D"><span class="mark">4</span><span class="choice-text">が</span></label></div>
+      </div>
+    </article>

@@ -1,0 +1,45 @@
+﻿
+          </div>
+        </div>
+      </article>
+    </section>
+<section class="page" id="section-reading_memo">
+      <div class="section-title">読解</div>
+      <div class="problem-head"><span>問題4</span><span>つぎの 文章を 読んで、しつもんに こたえて ください。こたえは 1・2・3・4から いちばん いい ものを 一つ えらんで ください。</span></div>
+      <article class="reading-block">
+        <div class="stem">佐藤さん
+
+10時ごろ ゆうびんきょくの 人が 来ます。にもつを 受け取って ください。お金は つくえの 上に あります。ゆうびんきょくの 人が 来る 前に、コンビニへ 行かないで ください。
+
+山本</div>
+        <div class="q">
+          <div class="qnum">64</div>
+          <div class="qbody">
+            <div class="question">しつもん：佐藤さんは はじめに 何を しますか。</div>
+            <div class="choices reading-choices"><label class="choice"><input type="radio" name="MT1_R29" value="A"><span class="mark">1</span><span class="choice-text">コンビニへ 行きます。</span></label><label class="choice"><input type="radio" name="MT1_R29" value="B"><span class="mark">2</span><span class="choice-text">にもつを 受け取ります。</span></label><label class="choice"><input type="radio" name="MT1_R29" value="C"><span class="mark">3</span><span class="choice-text">お金を つくえに 置きます。</span></label><label class="choice"><input type="radio" name="MT1_R29" value="D"><span class="mark">4</span><span class="choice-text">山本さんに 電話します。</span></label></div>
+          </div>
+        </div>
+      </article>
+    </section>
+<section class="page" id="section-reading_medium_passage">
+      <div class="section-title">読解</div>
+      <div class="problem-head"><span>問題5</span><span>つぎの 文章を 読んで、しつもんに こたえて ください。こたえは 1・2・3・4から いちばん いい ものを 一つ えらんで ください。</span></div>
+      <article class="reading-block">
+        <div class="stem">リーさんは 日よう日に 友だちと 公園へ 行きました。朝は 雨でしたが、昼から 晴れました。公園で おべんとうを 食べて、写真を たくさん とりました。夕方、駅の 近くの 店で ケーキを 買って、うちへ 帰りました。</div>
+        <div class="q">
+          <div class="qnum">65</div>
+          <div class="qbody">
+            <div class="question">しつもん：リーさんは どこで ケーキを 買いましたか。</div>
+            <div class="choices reading-choices"><label class="choice"><input type="radio" name="MT1_R30" value="A"><span class="mark">1</span><span class="choice-text">公園で 買いました。</span></label><label class="choice"><input type="radio" name="MT1_R30" value="B"><span class="mark">2</span><span class="choice-text">駅の 近くの 店で 買いました。</span></label><label class="choice"><input type="radio" name="MT1_R30" value="C"><span class="mark">3</span><span class="choice-text">うちで 買いました。</span></label><label class="choice"><input type="radio" name="MT1_R30" value="D"><span class="mark">4</span><span class="choice-text">学校で 買いました。</span></label></div>
+          </div>
+        </div><div class="q">
+          <div class="qnum">66</div>
+          <div class="qbody">
+            <div class="question">しつもん：日よう日の 天気は どうでしたか。</div>
+            <div class="choices reading-choices"><label class="choice"><input type="radio" name="MT1_R31" value="A"><span class="mark">1</span><span class="choice-text">一日中 雨でした。</span></label><label class="choice"><input type="radio" name="MT1_R31" value="B"><span class="mark">2</span><span class="choice-text">朝は 雨で、昼から 晴れました。</span></label><label class="choice"><input type="radio" name="MT1_R31" value="C"><span class="mark">3</span><span class="choice-text">一日中 晴れでした。</span></label><label class="choice"><input type="radio" name="MT1_R31" value="D"><span class="mark">4</span><span class="choice-text">夕方から 雨でした。</span></label></div>
+          </div>
+        </div>
+      </article>
+    </section>
+<section class="page" id="section-reading_information_route">
+      <div 

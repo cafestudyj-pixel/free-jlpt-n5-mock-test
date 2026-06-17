@@ -1,0 +1,31 @@
+﻿ection>
+<section class="page" id="section-vocabulary_paraphrase">
+    <div class="section-title">文字・語彙</div>
+    <div class="problem-head"><span>問題4</span><span>＿＿＿の ぶんと だいたい おなじ いみの ぶんが あります。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。</span></div>
+    <article class="q">
+      <div class="qnum">31</div>
+      <div class="qbody">
+        <div class="stem">これは りょうしんの しゃしんです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V31" value="A"><span class="mark">1</span><span class="choice-text">これは ちちと ははの しゃしんです。</span></label><label class="choice"><input type="radio" name="MT1_V31" value="B"><span class="mark">2</span><span class="choice-text">これは あにと あねの しゃしんです。</span></label><label class="choice"><input type="radio" name="MT1_V31" value="C"><span class="mark">3</span><span class="choice-text">これは ともだちの しゃしんです。</span></label><label class="choice"><input type="radio" name="MT1_V31" value="D"><span class="mark">4</span><span class="choice-text">これは 先生の しゃしんです。</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">32</div>
+      <div class="qbody">
+        <div class="stem">この みちは ひろいです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V32" value="A"><span class="mark">1</span><span class="choice-text">この みちは せまいです。</span></label><label class="choice"><input type="radio" name="MT1_V32" value="B"><span class="mark">2</span><span class="choice-text">この みちは ながいです。</span></label><label class="choice"><input type="radio" name="MT1_V32" value="C"><span class="mark">3</span><span class="choice-text">この みちは せまくありません。</span></label><label class="choice"><input type="radio" name="MT1_V32" value="D"><span class="mark">4</span><span class="choice-text">この みちは ひろくありません。</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">33</div>
+      <div class="qbody">
+        <div class="stem">ふくを せんたくしました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V33" value="A"><span class="mark">1</span><span class="choice-text">ふくを あらいました。</span></label><label class="choice"><input type="radio" name="MT1_V33" value="B"><span class="mark">2</span><span class="choice-text">ふくを かいました。</span></label><label class="choice"><input type="radio" name="MT1_V33" value="C"><span class="mark">3</span><span class="choice-text">ふくを きました。</span></label><label class="choice"><input type="radio" name="MT1_V33" value="D"><span class="mark">4</span><span class="choice-text">ふくを ぬぎました。</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">34</div>
+      <div class="qbody">
+        <div class="stem">リーさんは 森さんに ペンを かしました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V34" value="A"><span class="mark">1</span><span class="choice-text">森さんは リーさんに ペンを もらいました。</span></label><label class="choice"><input type="radio" name="MT1_V34" value="B"><span class="mark">2</span><span class="choice-text">リーさんは 森さんに ペンを もらいました。</span></label><label class="choice"><input type="radio" name="MT1_V34" value="C"><span class="mark">3</span><span class="choice-text">森さんは リーさんに ペンを かしました。</span></label><label class="choice"><input type="radio" name="MT1_V34" value="D"><span class="mark">4</span><span class="choice-text">リーさんは 森さんから ペンを かりました。</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">35</div>
+      <div class="qbo

@@ -1,0 +1,32 @@
+﻿dy">
+        <div class="stem">この へやは しずかです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V35" value="A"><span class="mark">1</span><span class="choice-text">この へやは うるさいです。</span></label><label class="choice"><input type="radio" name="MT1_V35" value="B"><span class="mark">2</span><span class="choice-text">この へやは しずかでは ありません。</span></label><label class="choice"><input type="radio" name="MT1_V35" value="C"><span class="mark">3</span><span class="choice-text">この へやは にぎやかです。</span></label><label class="choice"><input type="radio" name="MT1_V35" value="D"><span class="mark">4</span><span class="choice-text">この へやは うるさく ありません。</span></label></div>
+      </div>
+    </article>
+  </section>
+<section class="page" id="section-grammar_local_function_selection">
+    <div class="section-title">文法</div>
+    <div class="problem-head"><span>問題1</span><span>（　）に 何を 入れますか。1・2・3・4から いちばん いい ものを 一つ えらんで ください。</span></div>
+    <article class="q">
+      <div class="qnum">36</div>
+      <div class="qbody">
+        <div class="stem">わたしは バス（　）学校へ 行きます。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G01" value="A"><span class="mark">1</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G01" value="B"><span class="mark">2</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G01" value="C"><span class="mark">3</span><span class="choice-text">が</span></label><label class="choice"><input type="radio" name="MT1_G01" value="D"><span class="mark">4</span><span class="choice-text">で</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">37</div>
+      <div class="qbody">
+        <div class="stem">つくえの 上（　）本が あります。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G02" value="A"><span class="mark">1</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G02" value="B"><span class="mark">2</span><span class="choice-text">を</span></label><label class="choice"><input type="radio" name="MT1_G02" value="C"><span class="mark">3</span><span class="choice-text">で</span></label><label class="choice"><input type="radio" name="MT1_G02" value="D"><span class="mark">4</span><span class="choice-text">へ</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">38</div>
+      <div class="qbody">
+        <div class="stem">きのう デパート（　）くつを 買いました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G03" value="A"><span class="mark">1</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G03" value="B"><span class="mark">2</span><span class="choice-text">で</span></label><label class="choice"><input type="radio" name="MT1_G03" value="C"><span class="mark">3</span><span class="choice-text">へ</span></label><label class="choice"><input type="radio" name="MT1_G03" value="D"><span class="mark">4</span><span class="choice-text">が</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">39</div>
+      <div class="qbody">
+        <div class="stem">田中さん（　）いっしょに 映画を 見ました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G04" value="A"><span class="mark">1</span><span class="choice-text">と</span></label><label class="choice"><inp

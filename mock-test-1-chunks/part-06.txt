@@ -1,0 +1,30 @@
+﻿bel><label class="choice"><input type="radio" name="MT1_V17" value="C"><span class="mark">3</span><span class="choice-text">日木語</span></label><label class="choice"><input type="radio" name="MT1_V17" value="D"><span class="mark">4</span><span class="choice-text">本日語</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">18</div>
+      <div class="qbody">
+        <div class="stem">ここに なまえを <span class="u">かいて</span> ください。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V18" value="A"><span class="mark">1</span><span class="choice-text">書いて</span></label><label class="choice"><input type="radio" name="MT1_V18" value="B"><span class="mark">2</span><span class="choice-text">買いて</span></label><label class="choice"><input type="radio" name="MT1_V18" value="C"><span class="mark">3</span><span class="choice-text">聞いて</span></label><label class="choice"><input type="radio" name="MT1_V18" value="D"><span class="mark">4</span><span class="choice-text">読いて</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">19</div>
+      <div class="qbody">
+        <div class="stem">きょうは <span class="u">げんき</span>です。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V19" value="A"><span class="mark">1</span><span class="choice-text">元気</span></label><label class="choice"><input type="radio" name="MT1_V19" value="B"><span class="mark">2</span><span class="choice-text">天気</span></label><label class="choice"><input type="radio" name="MT1_V19" value="C"><span class="mark">3</span><span class="choice-text">電気</span></label><label class="choice"><input type="radio" name="MT1_V19" value="D"><span class="mark">4</span><span class="choice-text">人気</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">20</div>
+      <div class="qbody">
+        <div class="stem"><span class="u">らいしゅう</span> テストが あります。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V20" value="A"><span class="mark">1</span><span class="choice-text">来週</span></label><label class="choice"><input type="radio" name="MT1_V20" value="B"><span class="mark">2</span><span class="choice-text">来月</span></label><label class="choice"><input type="radio" name="MT1_V20" value="C"><span class="mark">3</span><span class="choice-text">今週</span></label><label class="choice"><input type="radio" name="MT1_V20" value="D"><span class="mark">4</span><span class="choice-text">来日</span></label></div>
+      </div>
+    </article>
+  </section>
+<section class="page" id="section-vocabulary_context_fit">
+    <div class="section-title">文字・語彙</div>
+    <div class="problem-head"><span>問題3</span><span>（　）に なにが はいりますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。</span></div>
+    <article class="q">
+      <div class="qnum">21</div>
+      <div class="qbody">
+        <div class="stem">のどが かわきました。水を（　）。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V21" value="A"><span class="mark">1</span><span class="choice-text">よみます</span></label><label class="choice"><input type="radio" name="MT1_V21" value="B"><span class="mark">2</span><span class="choice-text">かきます</span></label><label class="choice"><input type="radio" name="MT1_V21" value="C"><span class="mark">3</span><span class="choice-text">のみます</span></label><label class="choice"><input type="radio" name="MT1_V21" value="D"><span class="mark">

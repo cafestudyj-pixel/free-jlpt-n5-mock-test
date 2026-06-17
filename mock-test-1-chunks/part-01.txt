@@ -1,0 +1,155 @@
+﻿<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>N5 Mock Test 1 No Listening Fullset</title>
+  <style>
+    @page { size: A4; margin: 12mm; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #e8e8e8;
+      color: #111;
+      font-family: "Yu Mincho", "MS Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+      font-feature-settings: "palt" 0;
+    }
+    .page {
+      width: 210mm;
+      height: 297mm;
+      margin: 18px auto;
+      padding: 18mm 17mm 16mm;
+      background: #fff;
+      box-shadow: 0 1px 8px rgba(0,0,0,.18);
+      position: relative;
+    }
+    .page.continuation {
+      padding-top: 20mm;
+    }
+    .section-title {
+      position: absolute;
+      top: 7mm;
+      right: 16mm;
+      font-size: 10.5pt;
+      letter-spacing: 0;
+    }
+    .problem-head {
+      display: grid;
+      grid-template-columns: 34mm 1fr;
+      gap: 6mm;
+      align-items: start;
+      font-size: 15.2pt;
+      line-height: 1.5;
+      font-weight: 700;
+      margin-bottom: 6mm;
+      border-bottom: 1px solid #999;
+      padding-bottom: 3.5mm;
+    }
+    .q {
+      display: grid;
+      grid-template-columns: 10mm 1fr;
+      gap: 4mm;
+      margin: 0 0 5.2mm;
+      break-inside: avoid;
+      font-size: 14.2pt;
+      line-height: 1.6;
+    }
+    .qnum {
+      width: 7.8mm;
+      height: 7.8mm;
+      border: 1.4px solid #555;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 700;
+      font-size: 13pt;
+      line-height: 1;
+      margin-top: 1mm;
+      font-family: Arial, sans-serif;
+    }
+    .reading-block {
+      break-inside: avoid;
+      margin: 0 0 7mm;
+      font-size: 15pt;
+      line-height: 1.72;
+    }
+    .stem {
+      white-space: pre-wrap;
+      margin-bottom: 2mm;
+    }
+    .reading-block > .stem {
+      max-width: 164mm;
+      margin-left: 4mm;
+      margin-bottom: 4mm;
+    }
+    .question {
+      white-space: pre-wrap;
+      margin: 0 0 1.8mm;
+      font-weight: 400;
+    }
+    .u {
+      text-decoration: underline;
+      text-underline-offset: .18em;
+      text-decoration-thickness: 1.4px;
+      font-weight: 700;
+    }
+.slot {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1.5px solid #111;
+  height: 6mm;
+  line-height: 1;
+  width: 13mm;
+  text-align: center;
+  vertical-align: -1mm;
+}
+.starline {
+  width: 13mm;
+}
+.star {
+  display: inline-block;
+  font-size: 15pt;
+  line-height: 1;
+}
+    .choices {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(22mm, 1fr));
+      column-gap: 9mm;
+      row-gap: 1mm;
+      margin-top: 1.2mm;
+    }
+    .reading-choices {
+      grid-template-columns: repeat(2, minmax(58mm, 1fr));
+      column-gap: 8mm;
+      row-gap: 1.4mm;
+    }
+    .choice {
+      display: grid;
+      grid-template-columns: 6mm 1fr;
+      align-items: baseline;
+      min-height: 6.6mm;
+      cursor: pointer;
+      padding: .35mm 0;
+      position: relative;
+    }
+    .choice input {
+      position: absolute;
+      opacity: 0;
+      pointer-events: none;
+    }
+    .mark {
+      font-family: Arial, sans-serif;
+      font-size: 13pt;
+      width: 5.2mm;
+      height: auto;
+      border: 0;
+      border-radius: 0;
+      display: inline-flex;
+      align-items: baseline;
+      justify-content: center;
+      line-height: 1;
+      background: transparent;
+      transform: none;
+    }
+    .choice-text { pa

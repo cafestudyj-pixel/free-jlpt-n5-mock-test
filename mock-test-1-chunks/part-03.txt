@@ -1,0 +1,29 @@
+﻿<span class="choice-text">そら</span></label><label class="choice"><input type="radio" name="MT1_V04" value="B"><span class="mark">2</span><span class="choice-text">うみ</span></label><label class="choice"><input type="radio" name="MT1_V04" value="C"><span class="mark">3</span><span class="choice-text">いえ</span></label><label class="choice"><input type="radio" name="MT1_V04" value="D"><span class="mark">4</span><span class="choice-text">みち</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">5</div>
+      <div class="qbody">
+        <div class="stem">母は まいあさ <span class="u">早く</span> 起きます。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V05" value="A"><span class="mark">1</span><span class="choice-text">はやく</span></label><label class="choice"><input type="radio" name="MT1_V05" value="B"><span class="mark">2</span><span class="choice-text">おそく</span></label><label class="choice"><input type="radio" name="MT1_V05" value="C"><span class="mark">3</span><span class="choice-text">たかく</span></label><label class="choice"><input type="radio" name="MT1_V05" value="D"><span class="mark">4</span><span class="choice-text">ひくく</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">6</div>
+      <div class="qbody">
+        <div class="stem">駅の <span class="u">近く</span>に コンビニが あります。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V06" value="A"><span class="mark">1</span><span class="choice-text">ちかく</span></label><label class="choice"><input type="radio" name="MT1_V06" value="B"><span class="mark">2</span><span class="choice-text">おおく</span></label><label class="choice"><input type="radio" name="MT1_V06" value="C"><span class="mark">3</span><span class="choice-text">ひろく</span></label><label class="choice"><input type="radio" name="MT1_V06" value="D"><span class="mark">4</span><span class="choice-text">ながく</span></label></div>
+      </div>
+    </article>
+  </section><section class="page continuation" id="section-vocabulary_kanji_reading-p2">
+    <div class="section-title">文字・語彙</div>
+    
+    <article class="q">
+      <div class="qnum">7</div>
+      <div class="qbody">
+        <div class="stem">日よう日に <span class="u">山</span>へ 行きました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V07" value="A"><span class="mark">1</span><span class="choice-text">やね</span></label><label class="choice"><input type="radio" name="MT1_V07" value="B"><span class="mark">2</span><span class="choice-text">やす</span></label><label class="choice"><input type="radio" name="MT1_V07" value="C"><span class="mark">3</span><span class="choice-text">やま</span></label><label class="choice"><input type="radio" name="MT1_V07" value="D"><span class="mark">4</span><span class="choice-text">やみ</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">8</div>
+      <div class="qbody">
+        <div class="stem"><span class="u">川</span>の 水は つめたいです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V08" value="A"><span class="mark">1</span><span class="choice-text">かわ</span></label><label class="choice"><input type="radio" name="MT1_V08" value="B"><span class="mark">2</span><span class="choice-text">かみ</span></label><label class="choice"><input type="radio" name="MT1_V08" value="C"><span class="mark">3</span><span class="choice-text">かね</span

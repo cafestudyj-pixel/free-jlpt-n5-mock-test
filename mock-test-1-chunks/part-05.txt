@@ -1,0 +1,29 @@
+﻿>
+      <div class="qnum">13</div>
+      <div class="qbody">
+        <div class="stem">わたしの <span class="u">がっこう</span>は えきの ちかくです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V13" value="A"><span class="mark">1</span><span class="choice-text">学交</span></label><label class="choice"><input type="radio" name="MT1_V13" value="B"><span class="mark">2</span><span class="choice-text">学校</span></label><label class="choice"><input type="radio" name="MT1_V13" value="C"><span class="mark">3</span><span class="choice-text">字校</span></label><label class="choice"><input type="radio" name="MT1_V13" value="D"><span class="mark">4</span><span class="choice-text">学枚</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">14</div>
+      <div class="qbody">
+        <div class="stem">きのう ともだちと <span class="u">えいが</span>を 見ました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V14" value="A"><span class="mark">1</span><span class="choice-text">映画</span></label><label class="choice"><input type="radio" name="MT1_V14" value="B"><span class="mark">2</span><span class="choice-text">英画</span></label><label class="choice"><input type="radio" name="MT1_V14" value="C"><span class="mark">3</span><span class="choice-text">映話</span></label><label class="choice"><input type="radio" name="MT1_V14" value="D"><span class="mark">4</span><span class="choice-text">央画</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">15</div>
+      <div class="qbody">
+        <div class="stem"><span class="u">あさ</span> 七じに おきました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V15" value="A"><span class="mark">1</span><span class="choice-text">朝</span></label><label class="choice"><input type="radio" name="MT1_V15" value="B"><span class="mark">2</span><span class="choice-text">明</span></label><label class="choice"><input type="radio" name="MT1_V15" value="C"><span class="mark">3</span><span class="choice-text">早</span></label><label class="choice"><input type="radio" name="MT1_V15" value="D"><span class="mark">4</span><span class="choice-text">昼</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">16</div>
+      <div class="qbody">
+        <div class="stem">この みせで パンを <span class="u">かいました</span>。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V16" value="A"><span class="mark">1</span><span class="choice-text">買いました</span></label><label class="choice"><input type="radio" name="MT1_V16" value="B"><span class="mark">2</span><span class="choice-text">貝ました</span></label><label class="choice"><input type="radio" name="MT1_V16" value="C"><span class="mark">3</span><span class="choice-text">書いました</span></label><label class="choice"><input type="radio" name="MT1_V16" value="D"><span class="mark">4</span><span class="choice-text">会いました</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">17</div>
+      <div class="qbody">
+        <div class="stem">まいにち <span class="u">にほんご</span>を べんきょうします。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V17" value="A"><span class="mark">1</span><span class="choice-text">日本語</span></label><label class="choice"><input type="radio" name="MT1_V17" value="B"><span class="mark">2</span><span class="choice-text">日本言</span></la

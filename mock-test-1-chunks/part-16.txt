@@ -1,0 +1,36 @@
+﻿hoice-text">食べて</span></label><label class="choice"><input type="radio" name="MT1_G25" value="D"><span class="mark">4</span><span class="choice-text">食べないで</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">61</div>
+      <div class="qbody">
+        <div class="stem">けさ 5時に 起きました。（　）、とても ねむいです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G26" value="A"><span class="mark">1</span><span class="choice-text">だから</span></label><label class="choice"><input type="radio" name="MT1_G26" value="B"><span class="mark">2</span><span class="choice-text">でも</span></label><label class="choice"><input type="radio" name="MT1_G26" value="C"><span class="mark">3</span><span class="choice-text">そして</span></label><label class="choice"><input type="radio" name="MT1_G26" value="D"><span class="mark">4</span><span class="choice-text">いつも</span></label></div>
+      </div>
+    </article>
+  </section>
+<section class="page" id="section-reading_short_passage">
+      <div class="section-title">読解</div>
+      <div class="problem-head"><span>問題4</span><span>つぎの 文章を 読んで、しつもんに こたえて ください。こたえは 1・2・3・4から いちばん いい ものを 一つ えらんで ください。</span></div>
+      <article class="reading-block">
+        <div class="stem">わたしは けさ ごはんと たまごを 食べて、学校へ 行きました。でも、弟は 何も 食べませんでした。起きた 時間が おそかったからです。弟は バナナを 学校へ 持っていきました。</div>
+        <div class="q">
+          <div class="qnum">62</div>
+          <div class="qbody">
+            <div class="question">しつもん：弟は 学校へ 行く 前に 何を 食べましたか。</div>
+            <div class="choices reading-choices"><label class="choice"><input type="radio" name="MT1_R27" value="A"><span class="mark">1</span><span class="choice-text">ごはんと たまごを 食べました。</span></label><label class="choice"><input type="radio" name="MT1_R27" value="B"><span class="mark">2</span><span class="choice-text">バナナを 食べました。</span></label><label class="choice"><input type="radio" name="MT1_R27" value="C"><span class="mark">3</span><span class="choice-text">何も 食べませんでした。</span></label><label class="choice"><input type="radio" name="MT1_R27" value="D"><span class="mark">4</span><span class="choice-text">パンを 食べました。</span></label></div>
+          </div>
+        </div>
+      </article>
+    </section>
+<section class="page" id="section-reading_information_notice">
+      <div class="section-title">読解</div>
+      <div class="problem-head"><span>問題4</span><span>つぎの 文章を 読んで、しつもんに こたえて ください。こたえは 1・2・3・4から いちばん いい ものを 一つ えらんで ください。</span></div>
+      <article class="reading-block">
+        <div class="stem">日本語1の クラスの みなさんへ
+
+今日、田中先生は お昼まで お休みです。午前の 日本語1の クラスは ありません。宿題は 来週 出して ください。午後の 日本語2の クラスは あります。</div>
+        <div class="q">
+          <div class="qnum">63</div>
+          <div class="qbody">
+            <div class="question">しつもん：日本語1の 学生に 何を 言っていますか。</div>
+            <div class="choices reading-choices"><label class="choice"><input type="radio" name="MT1_R28" value="A"><span class="mark">1</span><span class="choice-text">今日 クラスは ありません。宿題は 来週 出して ください。</span></label><label class="choice"><input type="radio" name="MT1_R28" value="B"><span class="mark">2</span><span class="choice-text">今日 クラスが あります。宿題は 今日 出して ください。</span></label><label class="choice"><input type="radio" name="MT1_R28" value="C"><span class="mark">3</span><span class="choice-text">午後 クラスが あります。宿題は 来週 出して ください。</span></label><label class="choice"><input type="radio" name="MT1_R28" value="D"><span class="mark">4</span><span class="choice-text">先生は 一日中 学校に います。</span></label></div>

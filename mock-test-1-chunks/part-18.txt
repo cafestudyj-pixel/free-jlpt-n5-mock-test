@@ -1,0 +1,45 @@
+﻿class="section-title">読解</div>
+      <div class="problem-head"><span>問題6</span><span>つぎの 文章を 読んで、しつもんに こたえて ください。こたえは 1・2・3・4から いちばん いい ものを 一つ えらんで ください。</span></div>
+      <article class="reading-block">
+        <div class="stem">高木大学に 行きたい 人へ
+
+1 花田駅から 電車で 水村駅まで 25分。水村駅から 歩いて 5分。お金は 550円。
+2 糸川駅から 電車で 木山駅まで 25分。木山駅から 歩いて 10分。お金は 430円。
+3 寺西駅から バスで 高木大学前まで 45分。そこから 歩いて 1分。お金は 300円。
+4 花田駅から ちかてつで 木山駅まで 30分。木山駅から 歩いて 10分。お金は 450円。</div>
+        <div class="q">
+          <div class="qnum">67</div>
+          <div class="qbody">
+            <div class="question">しつもん：時間は みじかいほうが よくて、お金は 500円までが いいです。どれで 行きますか。</div>
+            <div class="choices reading-choices"><label class="choice"><input type="radio" name="MT1_R32" value="A"><span class="mark">1</span><span class="choice-text">1</span></label><label class="choice"><input type="radio" name="MT1_R32" value="B"><span class="mark">2</span><span class="choice-text">2</span></label><label class="choice"><input type="radio" name="MT1_R32" value="C"><span class="mark">3</span><span class="choice-text">3</span></label><label class="choice"><input type="radio" name="MT1_R32" value="D"><span class="mark">4</span><span class="choice-text">4</span></label></div>
+          </div>
+        </div>
+      </article>
+    </section>
+<style>
+  .review-dock{position:sticky;bottom:0;z-index:20;background:#111;color:#fff;border-top:2px solid #000;padding:14px 16px;display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;font-family:Arial,"Noto Sans",sans-serif}.review-dock button{min-height:40px;border:1px solid #fff;background:#fff;color:#111;border-radius:4px;font-weight:700;padding:0 16px;cursor:pointer}.review-dock .muted{color:#ddd;font-size:.92rem}.result-panel{width:min(980px,calc(100% - 24px));margin:18px auto 36px;padding:18px;border:2px solid #111;background:#fff;color:#111;font-family:Arial,"Noto Sans",sans-serif}.result-panel h2{margin:0 0 10px;font-size:1.45rem}.result-panel .score{font-size:2.2rem;font-weight:800;margin:6px 0 14px}.review-row{border-top:1px solid #ccc;padding:12px 0}.review-row strong{display:block;margin-bottom:6px}.review-row .ok{color:#137333;font-weight:700}.review-row .ng{color:#b3261e;font-weight:700}.choice.correct-choice{outline:2px solid #137333;background:#eef8f0}.choice.wrong-choice{outline:2px solid #b3261e;background:#fff1f0}@media print{.review-dock,.result-panel{display:none!important}}
+</style>
+<div class="review-dock" aria-label="Mock test submit controls">
+  <button type="button" id="submit-mock1">Submit and review answers</button>
+  <span class="muted" id="mock1-progress-note">Answer the questions, then submit to check your score.</span>
+</div>
+<section id="mock1-result" class="result-panel" hidden></section>
+<script>
+(() => {
+  const reviewUrl = new URL('./mock-test-1/answer-review.json', location.href).href;
+  let answerMap = new Map();
+  let reviewItems = [];
+  const resultEl = document.getElementById('mock1-result');
+  const noteEl = document.getElementById('mock1-progress-note');
+  const submitBtn = document.getElementById('submit-mock1');
+
+  function esc(value) {
+    return String(value ?? '').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#039;');
+  }
+
+  function selectedAnswer(questionId) {
+    return document.querySelector(`input[type="radio"][name="${CSS.escape(questionId)}"]:checked`)?.value || '';
+  }
+
+  function clearMarks() {
+    document.querySelectorAll('.choice.

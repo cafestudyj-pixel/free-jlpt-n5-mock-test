@@ -1,0 +1,56 @@
+﻿correct-choice,.choice.wrong-choice').forEach((el) => el.classList.remove('correct-choice','wrong-choice'));
+  }
+
+  function markChoice(questionId, choiceId, className) {
+    const input = document.querySelector(`input[type="radio"][name="${CSS.escape(questionId)}"][value="${CSS.escape(choiceId)}"]`);
+    const label = input?.closest('.choice');
+    if (label) label.classList.add(className);
+  }
+
+  async function loadReview() {
+    const res = await fetch(reviewUrl, { cache: 'no-store' });
+    if (!res.ok) throw new Error(`answer-review load failed: ${res.status}`);
+    const payload = await res.json();
+    reviewItems = payload.public_answer_review_items || [];
+    answerMap = new Map(reviewItems.map((item) => [item.question_id, item]));
+    noteEl.textContent = `${reviewItems.length} answer keys loaded. Submit when finished.`;
+  }
+
+  function submitReview() {
+    clearMarks();
+    const rows = reviewItems.map((item, index) => {
+      const picked = selectedAnswer(item.question_id);
+      const ok = picked === item.correct_choice_id;
+      markChoice(item.question_id, item.correct_choice_id, 'correct-choice');
+      if (picked && !ok) markChoice(item.question_id, picked, 'wrong-choice');
+      return { ...item, index: index + 1, picked, ok };
+    });
+    const answered = rows.filter((row) => row.picked).length;
+    const correct = rows.filter((row) => row.ok).length;
+    resultEl.hidden = false;
+    resultEl.innerHTML = `
+      <h2>Mock Test 1 Review</h2>
+      <p class="score">Score: ${correct} / ${rows.length}</p>
+      <p>Answered: ${answered} / ${rows.length}. Correct answers are marked in green. Your incorrect selections are marked in red.</p>
+      <div>${rows.map((row) => `
+        <div class="review-row" id="review-${esc(row.question_id)}">
+          <strong>Question ${row.index} (${esc(row.question_id)}) <span class="${row.ok ? 'ok' : 'ng'}">${row.ok ? 'Correct' : 'Review'}</span></strong>
+          <div>Your answer: ${esc(row.picked || 'No answer')}</div>
+          <div>Correct answer: ${esc(row.correct_choice_id)}</div>
+          <p>${esc(row.public_explanation || '')}</p>
+        </div>
+      `).join('')}</div>
+    `;
+    resultEl.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+
+  submitBtn.addEventListener('click', submitReview);
+  loadReview().catch((err) => {
+    noteEl.textContent = 'Answer review could not be loaded. Please try again later.';
+    submitBtn.disabled = true;
+    console.error(err);
+  });
+})();
+</script>
+</body>
+</html>

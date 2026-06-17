@@ -1,0 +1,48 @@
+﻿dding-top: .1mm; }
+    .choice input:checked + .mark {
+      font-weight: 700;
+      text-decoration: underline;
+    }
+    @media screen and (max-width: 900px) {
+      .page { width: auto; height: auto; min-height: 297mm; margin: 0; padding: 18mm 8mm; }
+      .problem-head { grid-template-columns: 1fr; gap: 1mm; font-size: 15.2pt; }
+      .q { font-size: 14.2pt; grid-template-columns: 10mm 1fr; }
+      .choices { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body { background: #fff; }
+      .page { box-shadow: none; margin: 0; page-break-after: always; }
+      .choice input:checked + .mark {
+        color: #111;
+        background: transparent;
+      }
+    }
+  </style>
+</head>
+<body>
+<section class="page" id="section-vocabulary_kanji_reading">
+    <div class="section-title">文字・語彙</div>
+    <div class="problem-head"><span>問題1</span><span>＿＿＿の ことばは ひらがなで どう かきますか。1・2・3・4から いちばん いい ものを ひとつ えらんで ください。</span></div>
+    <article class="q">
+      <div class="qnum">1</div>
+      <div class="qbody">
+        <div class="stem">あしたは <span class="u">雨</span>が ふるでしょう。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V01" value="A"><span class="mark">1</span><span class="choice-text">あめ</span></label><label class="choice"><input type="radio" name="MT1_V01" value="B"><span class="mark">2</span><span class="choice-text">ゆき</span></label><label class="choice"><input type="radio" name="MT1_V01" value="C"><span class="mark">3</span><span class="choice-text">くも</span></label><label class="choice"><input type="radio" name="MT1_V01" value="D"><span class="mark">4</span><span class="choice-text">かぜ</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">2</div>
+      <div class="qbody">
+        <div class="stem">この <span class="u">本</span>は とても おもしろいです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V02" value="A"><span class="mark">1</span><span class="choice-text">ほん</span></label><label class="choice"><input type="radio" name="MT1_V02" value="B"><span class="mark">2</span><span class="choice-text">はん</span></label><label class="choice"><input type="radio" name="MT1_V02" value="C"><span class="mark">3</span><span class="choice-text">ぼん</span></label><label class="choice"><input type="radio" name="MT1_V02" value="D"><span class="mark">4</span><span class="choice-text">ばん</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">3</div>
+      <div class="qbody">
+        <div class="stem">学校の <span class="u">前</span>で 友だちに 会いました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V03" value="A"><span class="mark">1</span><span class="choice-text">まえ</span></label><label class="choice"><input type="radio" name="MT1_V03" value="B"><span class="mark">2</span><span class="choice-text">あと</span></label><label class="choice"><input type="radio" name="MT1_V03" value="C"><span class="mark">3</span><span class="choice-text">うえ</span></label><label class="choice"><input type="radio" name="MT1_V03" value="D"><span class="mark">4</span><span class="choice-text">した</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">4</div>
+      <div class="qbody">
+        <div class="stem">きょうは <span class="u">空</span>が あおいです。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_V04" value="A"><span class="mark">1</span>

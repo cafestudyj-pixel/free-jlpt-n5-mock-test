@@ -1,0 +1,25 @@
+﻿e"><input type="radio" name="MT1_G17" value="C"><span class="mark">3</span><span class="choice-text">あの 人</span></label><label class="choice"><input type="radio" name="MT1_G17" value="D"><span class="mark">4</span><span class="choice-text">だれ</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">53</div>
+      <div class="qbody">
+        <div class="stem">わたしは 日よう日に 兄 <span class="slot">&nbsp;</span>　<span class="slot">&nbsp;</span>　<span class="slot starline"><span class="star">★</span></span>　<span class="slot">&nbsp;</span> 出かけました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G18" value="A"><span class="mark">1</span><span class="choice-text">の</span></label><label class="choice"><input type="radio" name="MT1_G18" value="B"><span class="mark">2</span><span class="choice-text">と</span></label><label class="choice"><input type="radio" name="MT1_G18" value="C"><span class="mark">3</span><span class="choice-text">子ども</span></label><label class="choice"><input type="radio" name="MT1_G18" value="D"><span class="mark">4</span><span class="choice-text">いっしょに</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">54</div>
+      <div class="qbody">
+        <div class="stem">駅の <span class="slot">&nbsp;</span>　<span class="slot">&nbsp;</span>　<span class="slot starline"><span class="star">★</span></span>　<span class="slot">&nbsp;</span>で きっぷを 買いました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G19" value="A"><span class="mark">1</span><span class="choice-text">に</span></label><label class="choice"><input type="radio" name="MT1_G19" value="B"><span class="mark">2</span><span class="choice-text">ある</span></label><label class="choice"><input type="radio" name="MT1_G19" value="C"><span class="mark">3</span><span class="choice-text">近く</span></label><label class="choice"><input type="radio" name="MT1_G19" value="D"><span class="mark">4</span><span class="choice-text">店</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">55</div>
+      <div class="qbody">
+        <div class="stem">きのう <span class="slot">&nbsp;</span>　<span class="slot">&nbsp;</span>　<span class="slot starline"><span class="star">★</span></span>　<span class="slot">&nbsp;</span>でした。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G20" value="A"><span class="mark">1</span><span class="choice-text">映画</span></label><label class="choice"><input type="radio" name="MT1_G20" value="B"><span class="mark">2</span><span class="choice-text">見た</span></label><label class="choice"><input type="radio" name="MT1_G20" value="C"><span class="mark">3</span><span class="choice-text">は</span></label><label class="choice"><input type="radio" name="MT1_G20" value="D"><span class="mark">4</span><span class="choice-text">おもしろかった</span></label></div>
+      </div>
+    </article><article class="q">
+      <div class="qnum">56</div>
+      <div class="qbody">
+        <div class="stem">先週 <span class="slot">&nbsp;</span>　<span class="slot">&nbsp;</span>　<span class="slot starline"><span class="star">★</span></span>　<span class="slot">&nbsp;</span>の こうちゃを 飲みました。</div>
+        <div class="choices"><label class="choice"><input type="radio" name="MT1_G21" value="A"><span class="mark">1</span><span class="choice-text">もらった</span></label><label class="choice"><input type="radio" name="MT
