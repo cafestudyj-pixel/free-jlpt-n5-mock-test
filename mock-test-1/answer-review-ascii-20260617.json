@@ -1,0 +1,342 @@
+{
+  "payload_id": "N5_MOCK_TEST_1_PUBLIC_ANSWER_REVIEW_PAYLOAD_20260617",
+  "target_test_id": "mock_test_1_no_listening",
+  "item_count": 67,
+  "public_answer_review_items": [
+    {
+      "question_id": "MT1_V01",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u96e8\u300d in this sentence is \u300c\u3042\u3081\u300d."
+    },
+    {
+      "question_id": "MT1_V02",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u672c\u300d in this sentence is \u300c\u307b\u3093\u300d."
+    },
+    {
+      "question_id": "MT1_V03",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u524d\u300d in this sentence is \u300c\u307e\u3048\u300d."
+    },
+    {
+      "question_id": "MT1_V04",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u7a7a\u300d in this sentence is \u300c\u305d\u3089\u300d."
+    },
+    {
+      "question_id": "MT1_V05",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u65e9\u304f\u300d in this sentence is \u300c\u306f\u3084\u304f\u300d."
+    },
+    {
+      "question_id": "MT1_V06",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u8fd1\u304f\u300d in this sentence is \u300c\u3061\u304b\u304f\u300d."
+    },
+    {
+      "question_id": "MT1_V07",
+      "correct_choice_id": "C",
+      "public_explanation": "The correct reading of \u300c\u5c71\u300d in this sentence is \u300c\u3084\u307e\u300d."
+    },
+    {
+      "question_id": "MT1_V08",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u5ddd\u300d in this sentence is \u300c\u304b\u308f\u300d."
+    },
+    {
+      "question_id": "MT1_V09",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u96fb\u8eca\u300d in this sentence is \u300c\u3067\u3093\u3057\u3083\u300d."
+    },
+    {
+      "question_id": "MT1_V10",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u4e09\u4eba\u300d in this sentence is \u300c\u3055\u3093\u306b\u3093\u300d."
+    },
+    {
+      "question_id": "MT1_V11",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u753a\u300d in this sentence is \u300c\u307e\u3061\u300d."
+    },
+    {
+      "question_id": "MT1_V12",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct reading of \u300c\u65b0\u3057\u3044\u300d in this sentence is \u300c\u3042\u305f\u3089\u3057\u3044\u300d."
+    },
+    {
+      "question_id": "MT1_V13",
+      "correct_choice_id": "B",
+      "public_explanation": "The correct written form for \u300c\u304c\u3063\u3053\u3046\u300d is \u300c\u5b66\u6821\u300d."
+    },
+    {
+      "question_id": "MT1_V14",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u3048\u3044\u304c\u300d is \u300c\u6620\u753b\u300d."
+    },
+    {
+      "question_id": "MT1_V15",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u3042\u3055\u300d is \u300c\u671d\u300d."
+    },
+    {
+      "question_id": "MT1_V16",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u304b\u3044\u307e\u3057\u305f\u300d is \u300c\u8cb7\u3044\u307e\u3057\u305f\u300d."
+    },
+    {
+      "question_id": "MT1_V17",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u306b\u307b\u3093\u3054\u300d is \u300c\u65e5\u672c\u8a9e\u300d."
+    },
+    {
+      "question_id": "MT1_V18",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u304b\u3044\u3066\u300d is \u300c\u66f8\u3044\u3066\u300d."
+    },
+    {
+      "question_id": "MT1_V19",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u3052\u3093\u304d\u300d is \u300c\u5143\u6c17\u300d."
+    },
+    {
+      "question_id": "MT1_V20",
+      "correct_choice_id": "A",
+      "public_explanation": "The correct written form for \u300c\u3089\u3044\u3057\u3085\u3046\u300d is \u300c\u6765\u9031\u300d."
+    },
+    {
+      "question_id": "MT1_V21",
+      "correct_choice_id": "C",
+      "public_explanation": "\u300c\u306e\u307f\u307e\u3059\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V22",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3042\u3051\u3066\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V23",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3061\u304b\u3044\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V24",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u306e\u307f\u307e\u3059\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V25",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3079\u3093\u304d\u3087\u3046\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V26",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3082\u3063\u3066\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V27",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u3064\u3051\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V28",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3084\u3059\u307f\u307e\u3059\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V29",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u304a\u3044\u3057\u3044\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V30",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u308f\u304b\u308a\u307e\u305b\u3093\u300d best completes the sentence in this context."
+    },
+    {
+      "question_id": "MT1_V31",
+      "correct_choice_id": "A",
+      "public_explanation": "Choice A keeps the same basic meaning as the prompt: \u300c\u3053\u308c\u306f \u3061\u3061\u3068 \u306f\u306f\u306e \u3057\u3083\u3057\u3093\u3067\u3059\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_V32",
+      "correct_choice_id": "C",
+      "public_explanation": "Choice C keeps the same basic meaning as the prompt: \u300c\u3053\u306e \u307f\u3061\u306f \u305b\u307e\u304f\u3042\u308a\u307e\u305b\u3093\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_V33",
+      "correct_choice_id": "A",
+      "public_explanation": "Choice A keeps the same basic meaning as the prompt: \u300c\u3075\u304f\u3092 \u3042\u3089\u3044\u307e\u3057\u305f\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_V34",
+      "correct_choice_id": "A",
+      "public_explanation": "Choice A keeps the same basic meaning as the prompt: \u300c\u68ee\u3055\u3093\u306f \u30ea\u30fc\u3055\u3093\u306b \u30da\u30f3\u3092 \u3082\u3089\u3044\u307e\u3057\u305f\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_V35",
+      "correct_choice_id": "D",
+      "public_explanation": "Choice D keeps the same basic meaning as the prompt: \u300c\u3053\u306e \u3078\u3084\u306f \u3046\u308b\u3055\u304f \u3042\u308a\u307e\u305b\u3093\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_G01",
+      "correct_choice_id": "D",
+      "public_explanation": "\u300c\u3067\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G02",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u306b\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G03",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u3067\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G04",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3068\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G05",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u304c\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G06",
+      "correct_choice_id": "C",
+      "public_explanation": "\u300c\u306b\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G07",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u306e\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G08",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u306b\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G09",
+      "correct_choice_id": "C",
+      "public_explanation": "\u300c\u3067\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G10",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u3042\u308a\u307e\u305b\u3093\u3067\u3057\u305f\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G11",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u8a00\u3063\u3066\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G12",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u884c\u304d\u305f\u3044\u3067\u3059\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G13",
+      "correct_choice_id": "B",
+      "public_explanation": "\u300c\u8aad\u307f\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G14",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u304a\u3044\u3057\u3044\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G15",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3057\u3066\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G16",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u884c\u304b\u306a\u3044\u3067\u300d is the grammar choice that fits the sentence."
+    },
+    {
+      "question_id": "MT1_G17",
+      "correct_choice_id": "D",
+      "public_explanation": "At the \u2605 position, the correct choice is \u300c\u3060\u308c\u300d."
+    },
+    {
+      "question_id": "MT1_G18",
+      "correct_choice_id": "B",
+      "public_explanation": "At the \u2605 position, the correct choice is \u300c\u3068\u300d."
+    },
+    {
+      "question_id": "MT1_G19",
+      "correct_choice_id": "B",
+      "public_explanation": "At the \u2605 position, the correct choice is \u300c\u3042\u308b\u300d."
+    },
+    {
+      "question_id": "MT1_G20",
+      "correct_choice_id": "C",
+      "public_explanation": "At the \u2605 position, the correct choice is \u300c\u306f\u300d."
+    },
+    {
+      "question_id": "MT1_G21",
+      "correct_choice_id": "A",
+      "public_explanation": "At the \u2605 position, the correct choice is \u300c\u3082\u3089\u3063\u305f\u300d."
+    },
+    {
+      "question_id": "MT1_G22",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3060\u304b\u3089\u300d connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G23",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3069\u3046\u3044\u305f\u3057\u307e\u3057\u3066\u300d connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G24",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3067\u3082\u300d connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G25",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u98df\u3079\u308b\u300d connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_G26",
+      "correct_choice_id": "A",
+      "public_explanation": "\u300c\u3060\u304b\u3089\u300d connects the two sentences naturally."
+    },
+    {
+      "question_id": "MT1_R27",
+      "correct_choice_id": "C",
+      "public_explanation": "The passage supports choice C: \u300c\u4f55\u3082 \u98df\u3079\u307e\u305b\u3093\u3067\u3057\u305f\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_R28",
+      "correct_choice_id": "A",
+      "public_explanation": "The passage supports choice A: \u300c\u4eca\u65e5 \u30af\u30e9\u30b9\u306f \u3042\u308a\u307e\u305b\u3093\u3002\u5bbf\u984c\u306f \u6765\u9031 \u51fa\u3057\u3066 \u304f\u3060\u3055\u3044\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_R29",
+      "correct_choice_id": "B",
+      "public_explanation": "The passage supports choice B: \u300c\u306b\u3082\u3064\u3092 \u53d7\u3051\u53d6\u308a\u307e\u3059\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_R30",
+      "correct_choice_id": "B",
+      "public_explanation": "The passage supports choice B: \u300c\u99c5\u306e \u8fd1\u304f\u306e \u5e97\u3067 \u8cb7\u3044\u307e\u3057\u305f\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_R31",
+      "correct_choice_id": "B",
+      "public_explanation": "The passage supports choice B: \u300c\u671d\u306f \u96e8\u3067\u3001\u663c\u304b\u3089 \u6674\u308c\u307e\u3057\u305f\u3002\u300d."
+    },
+    {
+      "question_id": "MT1_R32",
+      "correct_choice_id": "D",
+      "public_explanation": "The passage supports choice D: \u300c4\u300d."
+    }
+  ]
+}
