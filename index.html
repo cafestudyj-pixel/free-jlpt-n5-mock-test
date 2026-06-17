@@ -15,8 +15,9 @@
       if (!res.ok) throw new Error(`${url} ${res.status}`);
       return res.text();
     }))).then((texts) => {
+      const html = texts.map((text) => text.replace(/^\uFEFF/, '')).join('');
       document.open();
-      document.write(texts.join(''));
+      document.write(html);
       document.close();
     }).catch((err) => {
       document.body.innerHTML = `<main class="loading"><h1>Could not load Mock Test 1</h1><p>${String(err.message || err)}</p></main>`;
