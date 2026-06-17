@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Free JLPT N5 Mock Test 1 no-listening exam paper with submit and answer review." />
+  <title>Free JLPT N5 Mock Test 1</title>
+  <style>body{margin:0;font-family:Arial,'Noto Sans JP',sans-serif;background:#f6f8f7;color:#111}.loading{max-width:720px;margin:12vh auto;padding:24px}.loading h1{font-size:2rem}.loading p{line-height:1.6;color:#555}.loading a{color:#08735f;font-weight:700}</style>
+</head>
+<body>
+  <main class="loading"><h1>Free JLPT N5 Mock Test 1</h1><p>Loading the exam paper...</p><p><a href="../">Back to homepage</a></p></main>
+  <script>
+    const parts = Array.from({length:19}, (_, i) => `../mock-test-1-chunks/part-${String(i+1).padStart(2,'0')}.txt`);
+    Promise.all(parts.map((url) => fetch(url, {cache:'no-store'}).then((res) => {
+      if (!res.ok) throw new Error(`${url} ${res.status}`);
+      return res.text();
+    }))).then((texts) => {
+      const html = texts.map((text) => text.replace(/^\uFEFF/, '')).join('').replaceAll('./mock-test-1/answer-review.json', './answer-review.json');
+      document.open();
+      document.write(html);
+      document.close();
+    }).catch((err) => {
+      document.body.innerHTML = `<main class="loading"><h1>Could not load Mock Test 1</h1><p>${String(err.message || err)}</p><p><a href="../">Back to homepage</a></p></main>`;
+      console.error(err);
+    });
+  </script>
+</body>
+</html>
