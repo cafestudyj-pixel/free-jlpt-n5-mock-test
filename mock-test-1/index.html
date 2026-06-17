@@ -15,7 +15,7 @@
       if (!res.ok) throw new Error(`${url} ${res.status}`);
       return res.text();
     }))).then((texts) => {
-      const html = texts.map((text) => text.replace(/^\uFEFF/, '')).join('').replaceAll('./mock-test-1/answer-review.json', './answer-review.json');
+      const html = texts.map((text) => text.replace(/^\uFEFF/, '')).join('').replaceAll('./mock-test-1/answer-review.json', './answer-review-clean-20260617.json');
       document.open();
       document.write(html);
       document.close();
