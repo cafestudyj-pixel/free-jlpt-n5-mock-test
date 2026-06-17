@@ -1,31 +1,37 @@
 # Free JLPT N5 Mock Test Series
 
-Public warm-up site for independent JLPT N5 practice.
+Public site for independent JLPT N5 mock-test practice.
 
 Official site:
-https://free-jlpt-n5-mock-test.netlify.app
+https://cafestudyj-pixel.github.io/free-jlpt-n5-mock-test/
 
 ## Current release
 
-Warm-up / Preview public package with lightweight visit-log signal.
+Mock Test 1 no-listening exam-paper page is open with score and public answer review after submission.
 
 ## Deployment
 
-This repository is intended to be connected to Netlify for automatic deployment.
+Current active deployment route:
 
-Recommended Netlify settings:
+- GitHub Pages
+- Repository: `cafestudyj-pixel/free-jlpt-n5-mock-test`
+- Branch: `main`
+- Public URL: https://cafestudyj-pixel.github.io/free-jlpt-n5-mock-test/
 
-- Build command: leave empty
-- Publish directory: `/` or repository root
-- Functions: none for the current static version
+Netlify is not the current active deployment route.
 
-## Visitor signal
+## Operations mailbox
 
-The static page includes a Netlify Forms hidden form named `n5-visit-log`.
-After deployment, check Netlify Forms for post-deployment visit signals.
+External Conco-readable mailbox files are stored under:
+
+- `ops/mailbox/`
+- `ops/status/COMMUNICATION_ROUTES_20260617.md`
+
+Use this GitHub mailbox when Conco / Main-com is outside the Subcom LAN. The Subcom HTTP mailbox is LAN-only.
 
 ## Safety notes
 
 - This is an independent practice site.
 - It is not affiliated with or endorsed by the JLPT organizers.
 - Do not copy official or commercial JLPT questions into this repository.
+- Do not commit secrets, tokens, private account data, or protected settings.
