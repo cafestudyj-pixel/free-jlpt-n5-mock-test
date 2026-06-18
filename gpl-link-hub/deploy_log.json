@@ -32,6 +32,16 @@
       "status": "confirmed_visual_by_jiko",
       "event_time": "2026-06-17T12:33:20+09:00",
       "notes": "Sent bubble / YouTube preview card visually confirmed in KakaoTalk."
+    },
+    {
+      "event_id": "GPL_DEPLOY_20260618_504",
+      "unit_id": "GALAXY_5_04",
+      "event_type": "kakao_distribution",
+      "youtube_url": "https://youtu.be/w0FAR4hG-1Y",
+      "target": "kakao:japanese_written_language_study_committee",
+      "status": "confirmed_visual_by_jiko",
+      "event_time": "2026-06-18T12:12:04+09:00",
+      "notes": "Sent bubble / YouTube preview card visually confirmed in KakaoTalk."
     }
   ]
 }

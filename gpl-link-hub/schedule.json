@@ -34,12 +34,13 @@
     },
     {
       "unit_id": "GALAXY_5_04",
-      "planned_date": null,
+      "planned_date": "2026-06-18",
       "youtube_url": "https://youtu.be/w0FAR4hG-1Y",
       "target": "kakao:japanese_written_language_study_committee",
-      "status": "ready_for_distribution",
+      "status": "distributed",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Sent to KakaoTalk target room ??? ??? ??? ????? and visually confirmed by Jiko on 2026-06-18.",
+      "updated_at": "2026-06-18T12:12:04+09:00"
     },
     {
       "unit_id": "GALAXY_5_05",
