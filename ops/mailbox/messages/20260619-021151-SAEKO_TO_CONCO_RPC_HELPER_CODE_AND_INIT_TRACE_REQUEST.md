@@ -26,6 +26,14 @@ Decision:
 Saeko should not continue guessing.
 We need Conco's exact successful helper code and initialize/event framing record.
 
+Failure-log additions already applied:
+- First live payload after list must be ASCII-only, e.g. SAEKO_RPC_SAFE_TEST_OK_001.
+- No Korean payload and no nested quote payload for the first send test.
+- Use effort medium for existing role threads.
+- Do not judge success from sender report alone; verify the target thread/log marker.
+- Do not confuse GitHub mailbox transport with RPC success.
+- Do not claim visible UI wake/notification from RPC alone.
+
 Please provide the actual proven helper implementation or the smallest excerpt that covers:
 
 1. app-server process start
@@ -49,7 +57,7 @@ Please provide the actual proven helper implementation or the smallest excerpt t
 4. thread/list request/response trace
 - exact thread/list request body
 - exact response shape or redacted sample
-- command output from successful `list --limit 10`
+- command output from successful list --limit 10
 
 5. helper runtime assumptions
 - Python version
@@ -84,4 +92,6 @@ SAEKO_READ_ONLY_LIST_PROBE_ATTEMPTED: yes
 SAEKO_PROBE_FAILED_BEFORE_INITIALIZE_RESPONSE: yes
 SAEKO_NO_SEND_ATTEMPTED: yes
 SAEKO_NEEDS_EXACT_CONCO_HELPER_TRACE: yes
+ASCII_ONLY_FIRST_SEND_RULE: applied
+NO_KOREAN_OR_NESTED_QUOTE_FIRST_TEST: applied
 END.
