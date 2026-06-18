@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T11:53:00+09:00",
+  "updated_at": "2026-06-18T15:26:03+09:00",
   "project": "GPL",
   "timezone": "Asia/Seoul",
   "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
@@ -11,7 +11,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "distributed",
       "requires_ssong_action": false,
-      "notes": "Baseline verified entry after GPL Machine Ledger V0 creation."
+      "notes": "Baseline verified entry after GPL Machine Ledger V0 creation.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_02",
@@ -20,7 +21,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "distributed",
       "requires_ssong_action": false,
-      "notes": "Distributed to Kakao room 일본어 글언어 스터디 추진위원단 on 2026-06-16."
+      "notes": "Distributed to Kakao room 일본어 글언어 스터디 추진위원단 on 2026-06-16.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_03",
@@ -30,7 +32,8 @@
       "status": "distributed",
       "requires_ssong_action": false,
       "notes": "Sent to KakaoTalk target room ??? ??? ??? ????? and visually confirmed.",
-      "updated_at": "2026-06-17T12:33:20+09:00"
+      "updated_at": "2026-06-17T12:33:20+09:00",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_04",
@@ -40,7 +43,8 @@
       "status": "distributed",
       "requires_ssong_action": false,
       "notes": "Sent to KakaoTalk target room ??? ??? ??? ????? and visually confirmed by Jiko on 2026-06-18.",
-      "updated_at": "2026-06-18T12:12:04+09:00"
+      "updated_at": "2026-06-18T12:12:04+09:00",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_05",
@@ -49,7 +53,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_06",
@@ -58,7 +63,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_07",
@@ -67,7 +73,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_08",
@@ -76,7 +83,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_09",
@@ -85,7 +93,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_10",
@@ -94,7 +103,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_11",
@@ -103,7 +113,8 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_12",
@@ -112,7 +123,9 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "ready_for_distribution",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution."
+      "notes": "Link recovered; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     }
-  ]
+  ],
+  "deployment_targets_file": "deployment_targets.json"
 }

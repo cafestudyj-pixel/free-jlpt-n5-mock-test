@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-16T11:53:00+09:00",
+  "updated_at": "2026-06-18T15:26:03+09:00",
   "project": "GPL Machine Ledger V0",
   "items": [
     {
@@ -11,7 +11,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube link verified and Kakao distribution confirmed by Ssong."
+      "notes": "YouTube link verified and Kakao distribution confirmed by Ssong.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_02",
@@ -22,7 +23,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-16",
       "verified": true,
-      "notes": "Kakao distribution confirmed visually by Jiko on 2026-06-16."
+      "notes": "Kakao distribution confirmed visually by Jiko on 2026-06-16.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_03",
@@ -33,7 +35,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-17T12:33:20+09:00",
       "verified": true,
-      "notes": "Kakao distribution confirmed visually by Jiko on 2026-06-17."
+      "notes": "Kakao distribution confirmed visually by Jiko on 2026-06-17.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_04",
@@ -44,7 +47,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-18T12:12:04+09:00",
       "verified": true,
-      "notes": "Sent to KakaoTalk target room ??? ??? ??? ????? and visually confirmed by Jiko on 2026-06-18."
+      "notes": "Sent to KakaoTalk target room ??? ??? ??? ????? and visually confirmed by Jiko on 2026-06-18.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_05",
@@ -55,7 +59,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_06",
@@ -66,7 +71,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_07",
@@ -77,7 +83,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_08",
@@ -88,7 +95,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_09",
@@ -99,7 +107,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_10",
@@ -110,7 +119,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_11",
@@ -121,7 +131,8 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
       "unit_id": "GALAXY_5_12",
@@ -132,7 +143,9 @@
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "updated_at": "2026-06-15",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution."
+      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "target_id": "kakao_japanese_written_language_study_committee"
     }
-  ]
+  ],
+  "deployment_targets_file": "deployment_targets.json"
 }

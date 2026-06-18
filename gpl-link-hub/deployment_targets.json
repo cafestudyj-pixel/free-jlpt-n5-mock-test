@@ -1,0 +1,48 @@
+{
+  "schema": "GPL_DEPLOYMENT_TARGETS_V1",
+  "updated_at": "2026-06-18T15:26:03+09:00",
+  "project": "GPL",
+  "purpose": "Canonical deployment target definitions for Jiko-led GPL distribution.",
+  "targets": [
+    {
+      "target_id": "kakao_japanese_written_language_study_committee",
+      "platform": "kakaotalk",
+      "room_name": "일본어 글언어 스터디 추진위원단",
+      "room_name_aliases": [
+        "일본어 글언어",
+        "일본어 글언어 스터디 추진위원단"
+      ],
+      "route": "chat_tab_search",
+      "preload_rule": [
+        "load youtube_url from links.json or schedule.json",
+        "load room_name from deployment_targets.json",
+        "copy youtube_url to clipboard before fire step"
+      ],
+      "precheck": [
+        "confirm_kakaotalk_open",
+        "confirm_chat_tab_before_search",
+        "reject_friend_tab_search",
+        "reject_openchat_branch",
+        "confirm_exact_room_result_before_open"
+      ],
+      "fire": [
+        "open_exact_room_result",
+        "focus_message_input",
+        "paste_youtube_url_only",
+        "press_enter"
+      ],
+      "verify": "youtube_preview_card_or_sent_link_bubble",
+      "send_format": "{youtube_url}",
+      "routine_preapproved": true,
+      "stop_conditions": [
+        "login_or_account_action_required",
+        "target_room_unclear",
+        "wrong_send_risk",
+        "link_mismatch",
+        "payment_or_security_setting",
+        "delete_or_public_scope_change"
+      ],
+      "notes": "Primary GPL weekday/noon distribution room. Search must start from KakaoTalk Chat tab, not Friend tab or OpenChat."
+    }
+  ]
+}
