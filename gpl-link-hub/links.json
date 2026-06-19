@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-18T15:26:03+09:00",
+  "updated_at": "2026-06-19T12:05:00+09:00",
   "project": "GPL Machine Ledger V0",
   "items": [
     {
@@ -55,11 +55,11 @@
       "title": "GALAXY 5 05 scene renderer v10",
       "youtube_url": "https://youtu.be/LdB1WobfzHA",
       "youtube_status": "uploaded_unlisted_made_for_kids",
-      "distribution_status": "not_distributed",
+      "distribution_status": "distributed",
       "kakao_room": "kakao:japanese_written_language_study_committee",
-      "updated_at": "2026-06-15",
+      "updated_at": "2026-06-19T12:05:00+09:00",
       "verified": true,
-      "notes": "YouTube share link recovered from Ssong-provided Studio share links; ready for scheduled Kakao distribution.",
+      "notes": "Kakao distribution executed by Jiko on 2026-06-19.",
       "target_id": "kakao_japanese_written_language_study_committee"
     },
     {
