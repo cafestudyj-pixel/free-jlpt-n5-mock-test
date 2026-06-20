@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-19T12:05:00+09:00",
+  "updated_at": "2026-06-20T12:00:00+09:00",
   "project": "GPL",
   "timezone": "Asia/Seoul",
   "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
@@ -62,10 +62,11 @@
       "planned_date": null,
       "youtube_url": "https://youtu.be/gcvroiHczlo",
       "target": "kakao:japanese_written_language_study_committee",
-      "status": "ready_for_distribution",
+      "status": "distributed",
       "requires_ssong_action": false,
-      "notes": "Link recovered; ready for scheduled Kakao distribution.",
-      "target_id": "kakao_japanese_written_language_study_committee"
+      "notes": "Sent to KakaoTalk target room by Jiko on 2026-06-20.",
+      "target_id": "kakao_japanese_written_language_study_committee",
+      "updated_at": "2026-06-20T12:00:00+09:00"
     },
     {
       "unit_id": "GALAXY_5_07",
