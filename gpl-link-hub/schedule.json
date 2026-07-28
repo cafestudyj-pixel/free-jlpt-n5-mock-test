@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T18:45:00+09:00",
+  "updated_at": "2026-07-28T19:05:00+09:00",
   "project": "GPL",
   "timezone": "Asia/Seoul",
   "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
@@ -477,12 +477,13 @@
       "youtube_url": "https://youtu.be/bqWItnH1FOg",
       "target": "kakao:japanese_written_language_study_committee",
       "target_id": "kakao_japanese_written_language_study_committee",
-      "status": "ready_for_distribution",
+      "status": "distributed",
       "requires_ssong_action": false,
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
-      "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "distribution_status": "distributed",
+      "notes": "Already distributed before the next automation cycle; automation starts from GALAXY_7_03.",
+      "updated_at": "2026-07-28T19:05:00+09:00"
     },
     {
       "unit_id": "GALAXY_7_02",
@@ -491,16 +492,17 @@
       "youtube_url": "https://youtu.be/6ndsASVwaIE",
       "target": "kakao:japanese_written_language_study_committee",
       "target_id": "kakao_japanese_written_language_study_committee",
-      "status": "ready_for_distribution",
+      "status": "distributed",
       "requires_ssong_action": false,
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
-      "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "distribution_status": "distributed",
+      "notes": "Already distributed before the next automation cycle; automation starts from GALAXY_7_03.",
+      "updated_at": "2026-07-28T19:05:00+09:00"
     },
     {
       "unit_id": "GALAXY_7_03",
-      "planned_date": "2026-07-31",
+      "planned_date": "2026-07-29",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/Ho76dh6qDJQ",
       "target": "kakao:japanese_written_language_study_committee",
@@ -510,11 +512,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_04",
-      "planned_date": "2026-08-01",
+      "planned_date": "2026-07-30",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/kU3RBB2qrVs",
       "target": "kakao:japanese_written_language_study_committee",
@@ -524,11 +526,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_05",
-      "planned_date": "2026-08-03",
+      "planned_date": "2026-07-31",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/7UfSPmjyAh8",
       "target": "kakao:japanese_written_language_study_committee",
@@ -538,11 +540,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_06",
-      "planned_date": "2026-08-04",
+      "planned_date": "2026-08-01",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/U0cz-Zkf7UM",
       "target": "kakao:japanese_written_language_study_committee",
@@ -552,11 +554,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_07",
-      "planned_date": "2026-08-05",
+      "planned_date": "2026-08-03",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/M8t1xQjwHKs",
       "target": "kakao:japanese_written_language_study_committee",
@@ -566,11 +568,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_08",
-      "planned_date": "2026-08-06",
+      "planned_date": "2026-08-04",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/pwd03L_5tjY",
       "target": "kakao:japanese_written_language_study_committee",
@@ -580,11 +582,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_09",
-      "planned_date": "2026-08-07",
+      "planned_date": "2026-08-05",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/HUJTfwxPIVU",
       "target": "kakao:japanese_written_language_study_committee",
@@ -594,11 +596,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_10",
-      "planned_date": "2026-08-08",
+      "planned_date": "2026-08-06",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/EVYq9psEJuk",
       "target": "kakao:japanese_written_language_study_committee",
@@ -608,11 +610,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_11",
-      "planned_date": "2026-08-10",
+      "planned_date": "2026-08-07",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/J5Nv1QDPLsE",
       "target": "kakao:japanese_written_language_study_committee",
@@ -622,11 +624,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_12",
-      "planned_date": "2026-08-11",
+      "planned_date": "2026-08-08",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/6J7WK_K4nRA",
       "target": "kakao:japanese_written_language_study_committee",
@@ -636,11 +638,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_13",
-      "planned_date": "2026-08-12",
+      "planned_date": "2026-08-10",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/Zhfe2hy_0YM",
       "target": "kakao:japanese_written_language_study_committee",
@@ -650,11 +652,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_14",
-      "planned_date": "2026-08-13",
+      "planned_date": "2026-08-11",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/FB0pmZXizBo",
       "target": "kakao:japanese_written_language_study_committee",
@@ -664,11 +666,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_15",
-      "planned_date": "2026-08-14",
+      "planned_date": "2026-08-12",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/gkXoadIg_fs",
       "target": "kakao:japanese_written_language_study_committee",
@@ -678,11 +680,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_16",
-      "planned_date": "2026-08-15",
+      "planned_date": "2026-08-13",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/8TweCBBCTlg",
       "target": "kakao:japanese_written_language_study_committee",
@@ -692,11 +694,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_17",
-      "planned_date": "2026-08-17",
+      "planned_date": "2026-08-14",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/AyDoqYvYicc",
       "target": "kakao:japanese_written_language_study_committee",
@@ -706,11 +708,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_18",
-      "planned_date": "2026-08-18",
+      "planned_date": "2026-08-15",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/qG54Yf-jSLc",
       "target": "kakao:japanese_written_language_study_committee",
@@ -720,11 +722,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_19",
-      "planned_date": "2026-08-19",
+      "planned_date": "2026-08-17",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/huI0axeaoLo",
       "target": "kakao:japanese_written_language_study_committee",
@@ -734,11 +736,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_20",
-      "planned_date": "2026-08-20",
+      "planned_date": "2026-08-18",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/WvlXpRSTF9g",
       "target": "kakao:japanese_written_language_study_committee",
@@ -748,11 +750,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_21",
-      "planned_date": "2026-08-21",
+      "planned_date": "2026-08-19",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/d3gqr3Rtj0g",
       "target": "kakao:japanese_written_language_study_committee",
@@ -762,11 +764,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_22",
-      "planned_date": "2026-08-22",
+      "planned_date": "2026-08-20",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/Sd41siC7Q1k",
       "target": "kakao:japanese_written_language_study_committee",
@@ -776,11 +778,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_23",
-      "planned_date": "2026-08-24",
+      "planned_date": "2026-08-21",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/a0L7UqGdFX0",
       "target": "kakao:japanese_written_language_study_committee",
@@ -790,11 +792,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     },
     {
       "unit_id": "GALAXY_7_24",
-      "planned_date": "2026-08-25",
+      "planned_date": "2026-08-22",
       "planned_time": "12:00",
       "youtube_url": "https://youtu.be/rzK3Txkos8M",
       "target": "kakao:japanese_written_language_study_committee",
@@ -804,9 +806,11 @@
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
       "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Use pinned-room Kakao dispatch route. Routine local GUI distribution is pre-approved; stop only on login/account/wrong-room/link mismatch risk."
+      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
     }
   ],
   "deployment_targets_file": "deployment_targets.json",
-  "active_batch": "GALAXY_7_01_7_24"
+  "active_batch": "GALAXY_7_03_7_24",
+  "distribution_start_unit": "GALAXY_7_03",
+  "distribution_cycle": "Monday-Saturday, one GPL unit per day"
 }
