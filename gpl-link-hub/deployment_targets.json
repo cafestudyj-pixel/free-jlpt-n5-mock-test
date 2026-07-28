@@ -1,6 +1,6 @@
 {
-  "schema": "GPL_DEPLOYMENT_TARGETS_V1",
-  "updated_at": "2026-06-18T15:26:03+09:00",
+  "schema": "GPL_DEPLOYMENT_TARGETS_V2",
+  "updated_at": "2026-07-28T18:45:00+09:00",
   "project": "GPL",
   "purpose": "Canonical deployment target definitions for Jiko-led GPL distribution.",
   "targets": [
@@ -12,24 +12,26 @@
         "일본어 글언어",
         "일본어 글언어 스터디 추진위원단"
       ],
-      "route": "chat_tab_search",
-      "preload_rule": [
-        "load youtube_url from links.json or schedule.json",
-        "load room_name from deployment_targets.json",
-        "copy youtube_url to clipboard before fire step"
+      "route": "pinned_chat_list_direct_open",
+      "pinned_position_rule": "In KakaoTalk chat list, target room is fixed directly below 조용한 채팅방.",
+      "primary_preload_rule": [
+        "load youtube_url from schedule.json or links.json",
+        "copy youtube_url to clipboard before fire step",
+        "open KakaoTalk chat list and use pinned room position, not search, when visible"
       ],
-      "precheck": [
-        "confirm_kakaotalk_open",
-        "confirm_chat_tab_before_search",
-        "reject_friend_tab_search",
-        "reject_openchat_branch",
-        "confirm_exact_room_result_before_open"
-      ],
-      "fire": [
-        "open_exact_room_result",
+      "primary_fire": [
+        "click pinned target room directly below ??? ???",
+        "confirm exact room title before sending",
         "focus_message_input",
         "paste_youtube_url_only",
         "press_enter"
+      ],
+      "fallback_route": "chat_tab_search_only",
+      "forbidden_routes": [
+        "friend_add_modal",
+        "open_chat_route",
+        "new_chat_plus_icon",
+        "approximate_bubble_icon_guess"
       ],
       "verify": "youtube_preview_card_or_sent_link_bubble",
       "send_format": "{youtube_url}",
@@ -42,7 +44,7 @@
         "payment_or_security_setting",
         "delete_or_public_scope_change"
       ],
-      "notes": "Primary GPL weekday/noon distribution room. Search must start from KakaoTalk Chat tab, not Friend tab or OpenChat."
+      "notes": "Pinned-room route is primary after 2026-07-28. Search is fallback only. Never open friend-add modal."
     }
   ]
 }
