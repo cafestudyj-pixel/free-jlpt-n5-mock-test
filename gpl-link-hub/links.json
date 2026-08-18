@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-18T12:36:00+09:00",
+  "updated_at": "2026-08-18T18:09:00+09:00",
   "project": "GPL Machine Ledger V0",
   "items": [
     {
@@ -773,12 +773,12 @@
       "title": "GALAXY 7 18",
       "youtube_url": "https://youtu.be/qG54Yf-jSLc",
       "youtube_status": "uploaded_unlisted_made_for_kids",
-      "distribution_status": "ready_for_kakao_distribution",
+      "distribution_status": "distributed",
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "target_id": "kakao_japanese_written_language_study_committee",
-      "updated_at": "2026-07-28T19:05:00+09:00",
+      "updated_at": "2026-08-18T18:09:00+09:00",
       "verified": true,
-      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit.",
+      "notes": "Sent to the canonical KakaoTalk target room by Jiko on 2026-08-18 as recovery of the missed 2026-08-15 distribution; YouTube preview card for GALAXY 7 18 visually confirmed.",
       "api_channel_title": "kw song",
       "api_channel_id": "UClSHaK7A6PMsgQSidMYyAfg",
       "video_id": "qG54Yf-jSLc",
