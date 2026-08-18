@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T12:53:00+09:00",
+  "updated_at": "2026-08-18T12:36:00+09:00",
   "project": "GPL",
   "timezone": "Asia/Seoul",
   "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
@@ -761,12 +761,13 @@
       "youtube_url": "https://youtu.be/WvlXpRSTF9g",
       "target": "kakao:japanese_written_language_study_committee",
       "target_id": "kakao_japanese_written_language_study_committee",
-      "status": "ready_for_distribution",
+      "status": "distributed",
       "requires_ssong_action": false,
       "verified": true,
       "youtube_status": "uploaded_unlisted_made_for_kids",
-      "distribution_status": "ready_for_kakao_distribution",
-      "notes": "Scheduled for Monday-Saturday GPL 7 distribution. Start point corrected: GALAXY_7_03 is first pending unit."
+      "distribution_status": "distributed",
+      "notes": "Sent to the canonical KakaoTalk target room by Jiko on 2026-08-18; YouTube preview card for GALAXY 7 20 visually confirmed.",
+      "updated_at": "2026-08-18T12:36:00+09:00"
     },
     {
       "unit_id": "GALAXY_7_21",
