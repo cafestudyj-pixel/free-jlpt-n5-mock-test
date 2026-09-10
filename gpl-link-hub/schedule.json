@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T11:58:41+09:00",
+  "updated_at": "2026-09-10T12:00:02+09:00",
   "project": "GPL",
   "timezone": "Asia/Seoul",
   "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
@@ -1138,9 +1138,9 @@
       "distribution_status": "distributed",
       "kakao_room": "kakao:japanese_written_language_study_committee",
       "target_id": "kakao_japanese_written_language_study_committee",
-      "updated_at": "2026-09-10T11:58:41+09:00",
+      "updated_at": "2026-09-10T12:00:02+09:00",
       "verified": true,
-      "notes": "Sent to the canonical KakaoTalk target room by Jiko on 2026-09-10T11:58:41+09:00; YouTube preview card visually confirmed.",
+      "notes": "Sent to the canonical KakaoTalk target room by Jiko on 2026-09-10T12:00:02+09:00; YouTube preview card visually confirmed.",
       "api_channel_title": "kw song",
       "api_channel_id": "UClSHaK7A6PMsgQSidMYyAfg",
       "video_id": "jLM0a3AwTcQ",
