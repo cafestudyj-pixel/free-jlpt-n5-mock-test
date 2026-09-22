@@ -1407,6 +1407,26 @@
       "target": "kakao:japanese_written_language_study_committee",
       "status": "distributed",
       "requires_ssong_action": false
+    },
+    {
+      "unit_id": "GALAXY_9_02",
+      "title": "GALAXY 9 02",
+      "youtube_url": "https://youtu.be/sVxfnSVbdJU",
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "ready_for_kakao_distribution",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "target_id": "kakao_japanese_written_language_study_committee",
+      "updated_at": "2026-09-22T18:17:41+09:00",
+      "verified": true,
+      "notes": "Reviewed Nanami-voice render uploaded; source narration excluded. KakaoTalk send pending action-time confirmation.",
+      "api_channel_title": "kw song",
+      "api_channel_id": "UClSHaK7A6PMsgQSidMYyAfg",
+      "video_id": "sVxfnSVbdJU",
+      "planned_date": "2026-09-22",
+      "planned_time": "12:00",
+      "target": "kakao:japanese_written_language_study_committee",
+      "status": "ready_for_distribution",
+      "requires_ssong_action": false
     }
   ],
   "deployment_targets_file": "deployment_targets.json",
