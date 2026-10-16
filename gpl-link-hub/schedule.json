@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-15T12:56:20+09:00",
+  "updated_at": "2026-10-16T12:21:54+09:00",
   "project": "GPL",
   "timezone": "Asia/Seoul",
   "purpose": "Machine-readable queue for Jiko-led GPL upload and Kakao distribution.",
@@ -1608,6 +1608,26 @@
       "planned_time": "12:00",
       "target": "kakao:japanese_written_language_study_committee",
       "status": "distributed",
+      "requires_ssong_action": false
+    },
+    {
+      "unit_id": "GALAXY_9_16",
+      "title": "GALAXY 9 16",
+      "youtube_url": "https://youtu.be/XZ7E6g6eiVo",
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "ready_for_kakao_distribution",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "target_id": "kakao_japanese_written_language_study_committee",
+      "updated_at": "2026-10-16T12:21:54+09:00",
+      "verified": true,
+      "notes": "Reviewed Nanami voice verified against source narration; source narration excluded. Ready for canonical KakaoTalk distribution.",
+      "api_channel_title": "kw song",
+      "api_channel_id": "UClSHaK7A6PMsgQSidMYyAfg",
+      "video_id": "XZ7E6g6eiVo",
+      "planned_date": "2026-10-16",
+      "planned_time": "12:00",
+      "target": "kakao:japanese_written_language_study_committee",
+      "status": "ready_for_kakao_distribution",
       "requires_ssong_action": false
     }
   ],
