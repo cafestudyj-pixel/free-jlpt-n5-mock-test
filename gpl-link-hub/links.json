@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-19T10:42:21+09:00",
+  "updated_at": "2026-10-20T13:32:58+09:00",
   "project": "GPL Machine Ledger V0",
   "items": [
     {
@@ -1726,6 +1726,26 @@
       "planned_time": "12:00",
       "target": "kakao:japanese_written_language_study_committee",
       "status": "distributed",
+      "requires_ssong_action": false
+    },
+    {
+      "unit_id": "GALAXY_9_18",
+      "title": "GALAXY 9 18",
+      "youtube_url": "https://youtu.be/r7--y0Av_Zg",
+      "youtube_status": "uploaded_unlisted_made_for_kids",
+      "distribution_status": "ready_for_distribution",
+      "kakao_room": "kakao:japanese_written_language_study_committee",
+      "target_id": "kakao_japanese_written_language_study_committee",
+      "updated_at": "2026-10-20T13:32:58+09:00",
+      "verified": true,
+      "notes": "Reviewed Nanami voice verified against source narration; source narration excluded. Ready for canonical KakaoTalk distribution.",
+      "api_channel_title": "kw song",
+      "api_channel_id": "UClSHaK7A6PMsgQSidMYyAfg",
+      "video_id": "r7--y0Av_Zg",
+      "planned_date": "2026-10-20",
+      "planned_time": "12:00",
+      "target": "kakao:japanese_written_language_study_committee",
+      "status": "ready_for_distribution",
       "requires_ssong_action": false
     }
   ],
